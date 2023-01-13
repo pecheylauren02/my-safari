@@ -35,6 +35,10 @@ Users will be able to find general information about the Safari Lodge, as well a
      - Each image includes a text overlay with the name and price of each type of accommodation, to allow the user to make a more informed decision on which room to book. 
 
 - Activities page
+     - This page first provides a fun description of what activities are offered by the Safari. 
+     - The user will then scroll to see four eye-catching, circular-shaped images of the different activities offered by *insert Safari name here*.
+     - Each image has a text overlap of the name of the activity, so the user can easily identify which activity they are interested in most. 
+     - When the user hovers/clicks on the circular image, the image will flip over to reveal more information about the desired activity. This allows the user to interact with the website, providing a positive user experience. 
 
 - Enquiries page
 
