@@ -18,10 +18,16 @@ Users will be able to find general information about the Safari Lodge, as well a
      - The header shows the name of the Safari, using *describe font and color* because *reason for font choice and color*.
      - The header provides clear information about *describe here*.
 
-- The landing page image
+- About Us page
+     - The landing page image
+          - This section includes a slideshow of eye-catching wildlife photography to grab the user's attention and attract them into exploring the website more. 
+          - Each photograph includes a text overlay with enticing descriptions of the Safari experience, to again attract further exploration. 
+    
+    - The "Why Stay With Us?" section
+         - This section gives the user a brief history of the *insert Safari name here*, as well as a catchy, brief overview of what is offered at the Safari. 
+         - It then shows the user four reasons to stay at *insert Safari name here*, to encourage them to explore other aspects of the website like accommodation and activities. 
 
-- About us section 
-
+- 
 - The Footer
 
 - Accommodation page
