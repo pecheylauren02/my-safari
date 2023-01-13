@@ -27,17 +27,22 @@ Users will be able to find general information about the Safari Lodge, as well a
          - This section gives the user a brief history of the *insert Safari name here*, as well as a catchy, brief overview of what is offered at the Safari. 
          - It then shows the user four reasons to stay at *insert Safari name here*, to encourage them to explore other aspects of the website like accommodation and activities. 
 
+- Accommodation page
+     - This page welcomes the user with a brief, but enticing description of the accommodation offered. 
+     - The user can then scroll to see the three types of accommodation offered. 
+     - The layout shows a picture of the first type of accommodation on the left, and information about the room and it's facilities on the right. It then alternates with the second accommodation picture being on the right, with information on the left, and so on. 
+     - This layout provides a visually appealing aesthetic and makes it easy for the user to learn more about the variety of accommodation they can stay in. 
+     - Each image includes a text overlay with the name and price of each type of accommodation, to allow the user to make a more informed decision on which room to book. 
+
+- Activities page
+
+- Enquiries page
+
 - The Footer 
      - The footer section includes Contact Information, such as the Safari's phone number and email address and physical address, to allow the user to get in touch with the Safari should they have any queries or concerns before booking. 
      - This section also includes five social media links for the *insert Safari name here* website, so users can further explore what is offered at the Safari. 
      - This section will be valuable to the user because it encourages them to stay connected via call, email and social media. 
      - The footer section is identical across all four pages, to provide the user with consistency and to allow them to find the Contact Information, regardless of which page they are on. 
-
-- Accommodation page
-
-- Activities page
-
-- Enquiries page
 
 ### Features left to implement
 
