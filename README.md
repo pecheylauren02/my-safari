@@ -9,8 +9,14 @@ Users will be able to find general information about the Safari Lodge, as well a
 ### Existing Features
 
 - Navigation
+     - The navigation section features the name of the Safari identically at the top left-corner of each page, so that the user can immediately identify what the website is about.  
+     - There are also four navigation links identically placed to the right: About Us, Accommodation, Activities and Enquiries, to allow for easy navigation to the different pages of the website. 
+     - The navigation is in a font *describe font here* and a color *color here* that contrasts with the background. 
+     - This section will allow the user to navigate comfortably through each page across all devices, without needing to use the 'back' button to revert to a previous page. 
 
 - The Header
+     - The header shows the name of the Safari, using *describe font and color* because *reason for font choice and color*.
+     - The header provides clear information about *describe here*.
 
 - The landing page image
 
