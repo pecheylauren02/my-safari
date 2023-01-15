@@ -13,7 +13,7 @@
 <body>
         <header>
             <a href="index.html">
-                <h1 id="safari-logo">Sable Safaris</h1> 
+                <h1 id="safari-logo">Sable Safari</h1> 
             </a>
 
             <!-- Menu Wrapper idea from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
@@ -45,8 +45,36 @@
     <section>
         Activities offered
     </section> 
-    <section>
-        Send us a Message
+    <section class="form-section">
+        <form action="#" method="post">
+            <h2>Send us a message</h2>
+
+            <label for="firstname">First Name</label>
+            <input id="firstname" type="text" name="first_name" required>
+
+            <label for="lastname">Last Name</label>
+            <input id="lastname" type="text" name="last_name" required>
+
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" name="phone" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+
+            <label for="accommodation">Which room are you interested in?</label>
+            <select id="accommodation" name="accommodation">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." style="height:200px"></textarea>>
+
+
+            <input type="submit" value="Send">
+
+        </form> 
     </section> 
     <footer>
         Contact us, Address, Social media links 

@@ -29,6 +29,7 @@ h1, h2 {
     margin:left;
 }
 
+/* Credits to https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
 /* Desktop view */
 /* Wrapper */
 #menu-nav {
@@ -90,6 +91,10 @@ h1, h2 {
     #menu-nav input:checked ~ #menu-items {
         display: block;
     }
+}
+
+#message {
+    font-family: Baskerville, sans-serif;
 }
 
 
