@@ -8,8 +8,22 @@
 
 body {
     font-family: 'Baskerville', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     color: rgb(72, 72, 72);
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Baskerville, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3a3a3a;
+}
+
+#safari-logo {
+    float: left;
+    font-size: 250%;
 }
 
 /* Desktop view */
