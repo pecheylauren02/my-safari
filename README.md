@@ -1,6 +1,6 @@
-# My Safari 
+# Sable Safari
 
-The My Safari website is a site for tourists and local travellers looking to visit Zimbabwe and book an exciting safari getaway. My Safari offers accommodation and activities to meet the needs of all types of traveller: from adrenaline-junkies to wildlife enthusiasts, and even people who simply want to relax and enjoy the african sunset. 
+The Sable Safari website is a site for tourists and local travellers looking to visit Zimbabwe and book an exciting safari getaway. Sable Safari offers accommodation and activities to meet the needs of all types of traveller: from adrenaline-junkies to wildlife enthusiasts, and even people who simply want to relax and enjoy the african sunset. 
 
 Users will be able to find general information about the Safari Lodge, as well as the various activities they can indulge in upon arrival. They can also look at the types of rooms they'd like to stay in, and make enquiries through the enquiry form page. 
 
@@ -24,8 +24,8 @@ Users will be able to find general information about the Safari Lodge, as well a
           - Each photograph includes a text overlay with enticing descriptions of the Safari experience, to again attract further exploration. 
     
     - The "Why Stay With Us?" section
-         - This section gives the user a brief history of the *insert Safari name here*, as well as a catchy, brief overview of what is offered at the Safari. 
-         - It then shows the user four reasons to stay at *insert Safari name here*, to encourage them to explore other aspects of the website like accommodation and activities. 
+         - This section gives the user a brief history of Sable Safari, as well as a catchy, brief overview of what is offered at the Safari. 
+         - It then shows the user four reasons to stay at Sable Safari, to encourage them to explore other aspects of the website like accommodation and activities. 
 
 - Accommodation page
      - This page welcomes the user with a brief, but enticing description of the accommodation offered. 
@@ -36,7 +36,7 @@ Users will be able to find general information about the Safari Lodge, as well a
 
 - Activities page
      - This page first provides a fun description of what activities are offered by the Safari. 
-     - The user will then scroll to see four eye-catching, circular-shaped images of the different activities offered by *insert Safari name here*.
+     - The user will then scroll to see four eye-catching, circular-shaped images of the different activities offered by Sable Safari.
      - Each image has a text overlap of the name of the activity, so the user can easily identify which activity they are interested in most. 
      - When the user hovers/clicks on the circular image, the image will flip over to reveal more information about the desired activity. This allows the user to interact with the website, providing a positive user experience. 
 
@@ -44,7 +44,7 @@ Users will be able to find general information about the Safari Lodge, as well a
 
 - The Footer 
      - The footer section includes Contact Information, such as the Safari's phone number and email address and physical address, to allow the user to get in touch with the Safari should they have any queries or concerns before booking. 
-     - This section also includes five social media links for the *insert Safari name here* website, so users can further explore what is offered at the Safari. 
+     - This section also includes five social media links for the Sable Safari website, so users can further explore what is offered at the Safari. 
      - This section will be valuable to the user because it encourages them to stay connected via call, email and social media. 
      - The footer section is identical across all four pages, to provide the user with consistency and to allow them to find the Contact Information, regardless of which page they are on. 
 
