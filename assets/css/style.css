@@ -13,19 +13,28 @@ body {
 /* Horizontal menu items */
 #menu-items {
     display: flex;
+    font-size: 115%;
+    letter-spacing: 3px;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px;
+    list-style-type: none;
+    margin-right: 28px;
+    border-radius: 25px;
 }
 
 #menu-items a {
     flex-grow: 1;
     flex-basis: 0;
     padding: 12px;
-    color: rgb (72, 72, 72);
+    color: rgb(72, 72, 72);
     text-align: center;
     text-decoration: none;
 }
 
 #menu-items a:hover {
-    background: greenyellow;
+    background: white;
+    border-bottom:rgb(72, 72, 72);
 }
 
 /* Close menu */
