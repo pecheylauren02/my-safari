@@ -2,3 +2,73 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
+
+/* Desktop view */
+/* Wrapper */
+#menu-nav {
+    width: 100%;
+    background: white;
+}
+
+/* Horizontal menu items */
+#menu-items {
+    display: flex;
+}
+
+#menu-items a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 12px;
+    color: rgb (72, 72, 72);
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu-items a:hover {
+    background: greenyellow;
+}
+
+/* Close menu */
+
+#menu-items label, #menu {
+    display: none;
+}
+
+/* Mobile view */
+
+@media screen and (max-width: 768px){
+/* Vertical Menu */
+    #menu-items a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 2px solid #333; 
+}
+
+/* Show menu icon */
+    #menu-nav label {
+        display: inline-block;
+        color: white; 
+        background: rgb(72, 72, 72);
+        font-style: normal; 
+        font-size: 1.5rem;
+        padding: 9px;
+}
+
+/* Hide or Close Menu */
+    #menu-items {
+        display: none;
+    }
+
+    #menu-nav input:checked ~ #menu-items {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
