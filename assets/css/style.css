@@ -9,7 +9,8 @@
 body {
     font-family: 'Baskerville', sans-serif;
     font-weight: 400;
-    color: rgb(72, 72, 72);
+    color: #FE6B00;
+    background-color: #000;
 }
 
 /* headings and logo */
@@ -18,51 +19,45 @@ h1, h2 {
     font-family: Baskerville, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #3a3a3a;
+    color: #FE6B00;
+    padding: 20px;
 }
 
 #safari-logo {
     float: left;
-    font-size: 250%;
+    font-size: 300%;
+    margin:left;
 }
 
 /* Desktop view */
 /* Wrapper */
 #menu-nav {
     width: 100%;
-    background: white;
+    background: #000;
 }
 
 /* Horizontal menu items */
 #menu-items {
     display: flex;
-    font-size: 115%;
-    letter-spacing: 3px;
-    display: inline-block;
-    text-transform: capitalize;
-    padding: 10px;
-    list-style-type: none;
-    margin-right: 28px;
-    border-radius: 25px;
 }
 
 #menu-items a {
     flex-grow: 1;
     flex-basis: 0;
     padding: 12px;
-    color: rgb(72, 72, 72);
+    color: #FE6B00;
     text-align: center;
     text-decoration: none;
 }
 
 #menu-items a:hover {
-    background: white;
-    border-bottom:rgb(72, 72, 72);
+    background: #FE6B00;
+    border-bottom:1px solid rgb(72, 72, 72);
 }
 
 /* Close menu */
 
-#menu-items label, #menu {
+#menu-nav label, #menu {
     display: none;
 }
 
@@ -83,7 +78,7 @@ h1, h2 {
         color: white; 
         background: rgb(72, 72, 72);
         font-style: normal; 
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: 9px;
 }
 
