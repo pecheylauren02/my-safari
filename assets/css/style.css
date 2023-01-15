@@ -129,7 +129,22 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+/* footer section */
 
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i{
+    font-size: 150%;
+    margin: 2%;
+    padding: 5%;
+    color: white;
+}
 
 
 
