@@ -158,9 +158,13 @@ input[type=submit]:hover {
     background-color:#FE6B00;
 }
 
-#form-section {
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
     border-radius: 6px;
-    background-color: pink;
+    background-color: rgb(72, 72, 72);
     padding: 20px;
 }
 
