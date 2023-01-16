@@ -13,12 +13,12 @@ body {
     background-color: #000;
 }
 
-/* headings and logo */
+/* headings and logo ideas from CI */
 
 h1, h2 {
     font-family: Baskerville, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 3.5px;
     color: #FE6B00;
     padding: 20px;
 }
@@ -29,7 +29,7 @@ h1, h2 {
     margin:left;
 }
 
-/* Credits to https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
+/* Credits to https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
 /* Desktop view */
 /* Wrapper */
 #menu-nav {
@@ -37,23 +37,39 @@ h1, h2 {
     background: #000;
 }
 
+#menu-items, #safari-logo {
+    line-height: 75px;
+}
+
 /* Horizontal menu items */
 #menu-items {
     display: flex;
+    font-size: 110%;
+    letter-spacing: 3.5px;
+}
+
+#menu-items li {
+    float: right;
+    list-style-type: none;
+    margin-right: 28px;
 }
 
 #menu-items a {
     flex-grow: 1;
     flex-basis: 0;
     padding: 12px;
-    color: #FE6B00;
+    color: white;
     text-align: center;
     text-decoration: none;
 }
 
 #menu-items a:hover {
-    background: #FE6B00;
-    border-bottom:1px solid rgb(72, 72, 72);
+    border-bottom: 1.5px solid #FE6B00;
+    color: #FE6B00;
+}
+
+.active {
+    border-bottom: 1.5px solid #FE6B00;
 }
 
 /* Close menu */
