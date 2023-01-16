@@ -151,6 +151,28 @@ p {
     margin: 0 auto;
 }
 
+hr {
+    border-top: 2px solid #FE6B00;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 65%;
+    float: right;
+    line-height: 22px;
+    clear: both;
+    margin-bottom: 45px;
+}
+
+.right-about-heading {
+    width: 65%;
+    float: left;
+    line-height: 22px;
+    clear: both;
+    margin-bottom: 45px;
+}
+
 /* Form section on each page ideas from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Ideas from https://www.w3schools.com/howto/howto_css_inline_form.asp */
 
