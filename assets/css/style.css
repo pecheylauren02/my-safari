@@ -159,8 +159,16 @@ p {
     margin: 6px 12px 6px 0;
     padding: 10px;
     background-color: #fff;
-    border: 1px solid #ddd;
+    border-left: 2px solid #FE6B00;
     border-radius: 6px;
+    font-family: Baskerville, sans-serif;
+}
+
+.inline-form select {
+    color:rgb(72, 72, 72);
+}
+
+.inline-form select, .inline-form textarea {
     font-family: Baskerville, sans-serif;
 }
 
