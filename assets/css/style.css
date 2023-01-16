@@ -157,7 +157,7 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading {
+.left-reasons-heading {
     width: 65%;
     float: right;
     line-height: 22px;
@@ -165,12 +165,20 @@ hr {
     margin-bottom: 45px;
 }
 
-.right-about-heading {
+.left-reasons-heading > h2 {
+    color: #ef9a5b;
+}
+
+.right-reasons-heading {
     width: 65%;
     float: left;
     line-height: 22px;
     clear: both;
     margin-bottom: 45px;
+}
+
+.right-reasons-heading > h2 {
+    color: #ef9a5b;
 }
 
 #main-reasons-heading {
