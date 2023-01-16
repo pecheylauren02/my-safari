@@ -173,6 +173,12 @@ hr {
     margin-bottom: 45px;
 }
 
+#main-reasons-heading {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 300%;
+}
+
 /* Form section on each page ideas from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Ideas from https://www.w3schools.com/howto/howto_css_inline_form.asp */
 
