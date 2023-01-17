@@ -376,6 +376,13 @@ footer {
     color: white;
 }
 
+.copyright-content p {
+    color: white;
+    float: center;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
 
 
 
