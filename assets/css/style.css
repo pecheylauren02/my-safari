@@ -247,7 +247,7 @@ hr {
     clear: left;
     background-size: cover;
     background-position: center;
-    height: 50%;
+    height: 600px;
     width: 50%;
     border: 2px solid #FE6B00;
     border-radius: 6px;
@@ -393,6 +393,29 @@ footer {
     border-radius: 4px;
     margin: 20px;
  }
+
+#rooms-section {
+    height: 600px;
+}
+
+#left-rooms {
+    padding-top: 30px;
+    width: 33.333333%;
+    float: left;
+}
+
+#right-rooms {
+    padding-top: 30px;
+    width: 33.333333%;
+    float: right; 
+}
+
+#center-rooms {
+    width: 33.333333%;
+    margin: 0 auto;
+}
+
+
 
 
 
