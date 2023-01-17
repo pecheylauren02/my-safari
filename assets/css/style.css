@@ -135,7 +135,7 @@ h1, h2 {
 
  /* intro section */
 
- #intro {
+#intro {
     text-align: center;
     padding: 50px;
     background: #111;
@@ -384,16 +384,17 @@ footer {
 
 /* Accommodation page help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ */
 
-.container {
-    width: 300px;
-    display: flex;
-    align-items: center;
-}
+#room-intro {
+    text-align: center;
+    padding: 50px;
+    background: #111;
+    float: center;
+    border: 2px solid #FE6B00;
+    border-radius: 4px;
+    margin: 20px;
+ }
 
-.container img {
-    width: 50px;
-    margin-right: 20px;
-}
+
 
 
 
