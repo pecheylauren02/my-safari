@@ -325,19 +325,55 @@ footer {
     text-align: center;
 }
 
-.social-links {
+.footer-content {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    color: black;
 }
 
-.social-links > li {
+.footer-content h3 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 3rem;
+    color: black;
+}
+
+.contact {
+    list-style-type: none;
+    color: black;
+    max-width: 500px;
+    margin: 12px auto;
+    line-height: 30px;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem 0 3rem 0;
+}
+
+.social-links li {
+    margin: 0 30px;
     display: inline;
 }
 
 .social-links i {
-    font-size: 150%;
+    font-size: 200%;
     margin: 2%;
     padding: 5%;
     color: black;
+}
+
+.social-links i:hover {
+    color: #04AA6D;
 }
 
 
