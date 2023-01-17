@@ -313,6 +313,18 @@ hr {
 
 /* footer section */
 
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #ef9a5b;
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
 .social-links {
     text-align: center;
 }
@@ -325,7 +337,7 @@ hr {
     font-size: 150%;
     margin: 2%;
     padding: 5%;
-    color: #ef9a5b;
+    color: black;
 }
 
 
