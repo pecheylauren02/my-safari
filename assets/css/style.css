@@ -132,6 +132,16 @@ h1, h2 {
     transform: translate(-50%, -50%);
  }
 
+ /* intro section */
+
+ #intro {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+    float: center;
+    border: 2px solid #FE6B00;
+ }
+
 /* Accommodation section of homepage */
 h2 {
     text-transform: uppercase;
@@ -236,8 +246,9 @@ hr {
     background-position: center;
     height: 50%;
     width: 50%;
+    border: 2px solid #FE6B00;
     border-radius: 6px;
-    background-color: rgb(72, 72, 72);
+    background: #111;
     padding: 20px;
 }
 
