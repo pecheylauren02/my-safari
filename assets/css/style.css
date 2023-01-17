@@ -318,7 +318,7 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
-    background: #ef9a5b;
+    background: #111;
     height: auto;
     width: 100%;
     padding-top: 30px;
@@ -331,7 +331,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: black;
+    color: #FE6B00;
 }
 
 .footer-content h3 {
@@ -339,12 +339,12 @@ footer {
     font-weight: 400;
     letter-spacing: 3px;
     line-height: 3rem;
-    color: black;
+    color: #FE6B00;
 }
 
 .contact {
     list-style-type: none;
-    color: black;
+    color: white;
     max-width: 500px;
     margin: 12px auto;
     line-height: 30px;
@@ -369,11 +369,11 @@ footer {
     font-size: 200%;
     margin: 2%;
     padding: 5%;
-    color: black;
+    color: #ef9a5b;
 }
 
 .social-links i:hover {
-    color: #04AA6D;
+    color: white;
 }
 
 
