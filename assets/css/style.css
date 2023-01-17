@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     color: #FE6B00;
     background-color: #000;
+    margin: 0;
 }
 
 /* headings and logo ideas from CI */
@@ -136,10 +137,12 @@ h1, h2 {
 
  #intro {
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     background: #111;
     float: center;
     border: 2px solid #FE6B00;
+    border-radius: 4px;
+    margin: 20px;
  }
 
 /* Accommodation section of homepage */
@@ -377,6 +380,19 @@ footer {
     float: center;
     font-size: 15px;
     text-transform: capitalize;
+}
+
+/* Accommodation page help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ */
+
+.container {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    width: 50px;
+    margin-right: 20px;
 }
 
 
