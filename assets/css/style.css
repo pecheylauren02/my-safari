@@ -400,18 +400,18 @@ footer {
 
 #left-rooms {
     padding-top: 30px;
-    width: 33.333333%;
+    width: 33.33%;
     float: left;
 }
 
 #right-rooms {
     padding-top: 30px;
-    width: 33.333333%;
+    width: 33.33%;
     float: right; 
 }
 
 #center-rooms {
-    width: 33.333333%;
+    width: 33.33%;
     margin: 0 auto;
 }
 
