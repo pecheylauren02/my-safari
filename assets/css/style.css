@@ -542,7 +542,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center-top;
-    border-radius: 0% 10% 10% 0%;
+    border-radius: 10% 0% 0% 10%;
     background: url('../images/bungee_jumping_1.jpg') no-repeat center center;
     height: 80%;
     width: 55%;
