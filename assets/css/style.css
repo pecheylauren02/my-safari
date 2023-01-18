@@ -510,29 +510,51 @@ footer {
 
 /* Activities page */
 
-.activities-container {
+.act-cont-left {
     height: 800px;
     background-color: #111;
 }
 
-.image-gamedrive {
+.act-cont-right {
+    height: 800px;
+    background-color: #FE6B00;
+}
+
+.image-left {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center-top;
     border-radius: 0% 10% 10% 0%;
     background: url('../images/bungee_jumping_1.jpg') no-repeat center center;
     height: 80%;
-    width: 60%;
+    width: 55%;
     float: left;
     margin-top: 5%;
 }
 
-.text-gamedrive {
+.text-right {
     padding-top: 30px;
     width: 40%;
     float: right; 
 }
 
+.image-right {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center-top;
+    border-radius: 0% 10% 10% 0%;
+    background: url('../images/bungee_jumping_1.jpg') no-repeat center center;
+    height: 80%;
+    width: 55%;
+    float: right;
+    margin-top: 5%;
+}
+
+.text-left {
+    padding-top: 30px;
+    width: 40%;
+    float: left; 
+}
 
 
 
