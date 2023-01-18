@@ -398,22 +398,52 @@ footer {
     height: 600px;
 }
 
-#left-rooms {
+#left-about {
     padding-top: 30px;
-    width: 33.33%;
+    width: 33%;
     float: left;
 }
 
-#right-rooms {
+#right-about {
     padding-top: 30px;
-    width: 33.33%;
+    width: 33%;
     float: right; 
 }
 
-#center-rooms {
-    width: 33.33%;
+#center-about {
+    width: 33%;
     margin: 0 auto;
 }
+
+#circular-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 1px solid #ef9a5b;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#luxury-cover-background {
+    background: url('../images/luxury.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#lodge-cover-background {
+    background: url('../images/lodge.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#tent-cover-background {
+    background: url('../images/tent.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+
 
 
 
