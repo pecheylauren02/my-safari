@@ -615,6 +615,9 @@ footer {
 
 /* Enquiry page */
 
+.enquiry-form {
+
+}
 .enquiry-text {
     padding-top: 30px;
     width: 50%;
@@ -625,6 +628,7 @@ footer {
     padding-top: 30px;
     width: 50%;
     float: left;
+    padding: 20px;
 }
 
 input,
