@@ -616,16 +616,20 @@ footer {
 /* Enquiry page */
 
 .enquiry-text {
-    padding-top: 30px;
-    width: 50%;
+    padding: 30px;
+    width: 45%;
     float: right;
 }
 
 .form {
-    padding-top: 30px;
-    width: 50%;
+    padding: 30px;
+    width: 45%;
     float: left;
-    padding: 20px;
+    margin-left: 3%;
+}
+
+.form-heading {
+    margin-right: 20%;
 }
 
 input,
@@ -665,7 +669,3 @@ button {
 
 /* Enquiry form gallery */
 
-.row-gallery {
-    display: flex;
-    gap: 10px;
-}
