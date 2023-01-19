@@ -6,12 +6,21 @@
     border: none;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Baskerville', sans-serif;
     font-weight: 400;
     color: #FE6B00;
     background-color: #000;
     margin: 0;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
 }
 
 /* headings and logo ideas from CI */
@@ -355,10 +364,8 @@ hr {
 /* footer section help from https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ */
 
 footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
     left: 0;
+    bottom: 0;
     background: #111;
     height: 200px;
     width: 100%;
@@ -606,7 +613,7 @@ footer {
 }
 
 .text-left hr {
-    border-top: 2px solid #111;
+    border-top: 3px solid #111;
     width: 100%;
     margin: 5px 0;
 }
