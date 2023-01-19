@@ -168,7 +168,7 @@ p {
 }
 
 .hero-activities {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/buffalo_hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/wide_zebra_pair.png');
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -537,7 +537,7 @@ footer {
 
 /* Enquiry page */
 
-#form-section {
+.form-container {
     background-color: #111;
 }
 
