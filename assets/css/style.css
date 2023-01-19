@@ -294,79 +294,6 @@ hr {
     text-transform: uppercase;
 }
 
-/* Form section on each page ideas from https://www.w3schools.com/howto/howto_css_contact_form.asp */
-/* Ideas from https://www.w3schools.com/howto/howto_css_inline_form.asp */
-
-/* Display items in form horizontally */
-
-#form-section {
-    clear: left;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 50%;
-    border: 2px solid #FE6B00;
-    border-radius: 6px;
-    background: #111;
-    padding: 20px;
-}
-
-.inline-form {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.inline-form label {
-    margin: 6px 12px 6px 0;
-}
-
-.inline-form input {
-    vertical-align: middle;
-    margin: 6px 12px 6px 0;
-    padding: 10px;
-    background-color: #fff;
-    border-left: 2px solid #FE6B00;
-    border-radius: 6px;
-    font-family: Baskerville, sans-serif;
-}
-
-.inline-form select {
-    color: rgb(72, 72, 72);
-}
-
-.inline-form select,
-.inline-form textarea {
-    font-family: Baskerville, sans-serif;
-}
-
-.inline-form button {
-    padding: 10px 20px;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-family: Baskerville, sans-serif;
-    text-transform: uppercase;
-}
-
-.inline-form button:hover {
-    background-color: #04AA6D;
-}
-
-/* Adding responsiveness */
-
-@media (max-width: 800px) {
-    .inline-form input {
-        margin: 10px 0;
-    }
-
-    .inline-form {
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
-
 /* footer section help from https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ */
 
 footer {
@@ -614,6 +541,10 @@ footer {
 }
 
 /* Enquiry page */
+
+#form-section {
+    background-color: #111;
+}
 
 .enquiry-text {
     padding: 30px;
