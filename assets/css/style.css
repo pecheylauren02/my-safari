@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Libre+Baskerville:wght@700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -18,14 +19,15 @@ body {
     margin: 0;
 }
 
-body > footer {
+body>footer {
     position: sticky;
     top: 100vh;
 }
 
 /* headings and logo ideas from CI */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Baskerville, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3.5px;
@@ -40,7 +42,7 @@ p {
 #safari-logo {
     float: left;
     font-size: 300%;
-    margin:left;
+    margin: left;
 }
 
 /* Credits to https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
@@ -51,7 +53,8 @@ p {
     background: #000;
 }
 
-#menu-items, #safari-logo {
+#menu-items,
+#safari-logo {
     line-height: 75px;
 }
 
@@ -88,37 +91,39 @@ p {
 
 /* Close menu */
 
-#menu-nav label, #menu {
+#menu-nav label,
+#menu {
     display: none;
 }
 
 /* Mobile view */
 
-@media screen and (max-width: 768px){
-/* Vertical Menu */
+@media screen and (max-width: 768px) {
+
+    /* Vertical Menu */
     #menu-items a {
         box-sizing: border-box;
         display: block;
         width: 100%;
-        border-top: 2px solid #333; 
-}
+        border-top: 2px solid #333;
+    }
 
-/* Show menu icon */
+    /* Show menu icon */
     #menu-nav label {
         display: inline-block;
-        color: white; 
+        color: white;
         background: rgb(72, 72, 72);
-        font-style: normal; 
+        font-style: normal;
         font-size: 1.3rem;
         padding: 9px;
-}
+    }
 
-/* Hide or Close Menu */
+    /* Hide or Close Menu */
     #menu-items {
         display: none;
     }
 
-    #menu-nav input:checked ~ #menu-items {
+    #menu-nav input:checked~#menu-items {
         display: block;
     }
 }
@@ -126,61 +131,61 @@ p {
 /* Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
  https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
 
- .hero-about {
+.hero-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/lion_3.jpg');
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
- }
+}
 
- .hero-about-caption {
+.hero-about-caption {
     text-align: center;
     position: absolute;
     top: 70%;
     left: 25%;
     color: white;
     transform: translate(-50%, -50%);
- }
+}
 
- .hero-about-caption h1 {
+.hero-about-caption h1 {
     font-size: 400%;
     color: #ef9a5b;
- }
+}
 
- .hero-about-caption p {
+.hero-about-caption p {
     font-size: 180%;
- }
+}
 
- .hero-room {
+.hero-room {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/elephant_3.jpg');
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
- }
+}
 
- .hero-activities {
+.hero-activities {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/buffalo_hero.jpg');
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
- }
+}
 
- .hero-enquiries {
+.hero-enquiries {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/kudu_enquire.jpg');
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
- }
+}
 
- /* intro section */
+/* intro section */
 
 #intro {
     text-align: center;
@@ -190,7 +195,7 @@ p {
     border: 2px solid #FE6B00;
     border-radius: 4px;
     margin: 20px;
- }
+}
 
 /* Accommodation section of homepage */
 h2 {
@@ -198,6 +203,7 @@ h2 {
     color: #FE6B00;
     text-align: center;
 }
+
 h3 {
     text-transform: uppercase;
     color: #ef9a5b;
@@ -227,7 +233,7 @@ p {
 #right-reasons {
     padding-top: 30px;
     width: 33.333333%;
-    float: right; 
+    float: right;
 }
 
 #center-reasons {
@@ -249,7 +255,7 @@ hr {
     margin-bottom: 45px;
 }
 
-.left-reasons-heading > h2 {
+.left-reasons-heading>h2 {
     color: #ef9a5b;
 }
 
@@ -261,7 +267,7 @@ hr {
     margin-bottom: 45px;
 }
 
-.right-reasons-heading > h2 {
+.right-reasons-heading>h2 {
     color: #ef9a5b;
 }
 
@@ -326,10 +332,11 @@ hr {
 }
 
 .inline-form select {
-    color:rgb(72, 72, 72);
+    color: rgb(72, 72, 72);
 }
 
-.inline-form select, .inline-form textarea {
+.inline-form select,
+.inline-form textarea {
     font-family: Baskerville, sans-serif;
 }
 
@@ -373,7 +380,7 @@ footer {
 }
 
 .footer-content {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -440,7 +447,7 @@ footer {
     border: 2px solid #FE6B00;
     border-radius: 4px;
     margin: 20px;
- }
+}
 
 #rooms-section {
     height: 600px;
@@ -455,7 +462,7 @@ footer {
 #right-about {
     padding-top: 30px;
     width: 33%;
-    float: right; 
+    float: right;
 }
 
 #center-about {
@@ -527,7 +534,7 @@ footer {
 
 .act-cont-right {
     height: 800px;
-    background-color: #ef9a5b;
+    background-color: black;
 }
 
 .image-gamedrive {
@@ -581,7 +588,7 @@ footer {
 .text-right {
     padding-top: 3.5%;
     width: 40%;
-    float: right; 
+    float: right;
 }
 
 .text-right h2 {
@@ -595,26 +602,15 @@ footer {
 .text-left {
     padding-top: 3.5%;
     width: 40%;
-    float: left; 
+    float: left;
 }
 
 .text-left h2 {
-    color: white;
+    color: #ef9a5b;
 }
 
 .text-left h3 {
     padding-top: 30px;
-    color: white;
-}
-
-.text-left p {
-    color: #111;
-}
-
-.text-left hr {
-    border-top: 3px solid #111;
-    width: 100%;
-    margin: 5px 0;
 }
 
 /* Enquiry page */
@@ -631,7 +627,9 @@ footer {
     float: left;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
     width: 80%;
     padding: 15px 25px;
     margin: 10px 0;
@@ -642,7 +640,9 @@ input, textarea, select {
     font-size: 110%;
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
     border-left: 10px solid #FE6B00;
 }
 
@@ -668,20 +668,3 @@ button {
     display: flex;
     gap: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
