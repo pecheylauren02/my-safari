@@ -226,19 +226,14 @@ p {
 
 #left-reasons {
     padding-top: 30px;
-    width: 33.333333%;
+    width: 45%;
     float: left;
 }
 
 #right-reasons {
     padding-top: 30px;
-    width: 33.333333%;
+    width: 45%;
     float: right;
-}
-
-#center-reasons {
-    width: 33.333333%;
-    margin: 0 auto;
 }
 
 hr {
