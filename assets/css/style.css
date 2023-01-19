@@ -636,7 +636,15 @@ textarea {
 }
 
 button {
-    
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    font-family: Baskerville, sans-serif;
+    text-decoration: none;
+    margin: 5px 3px;
+    cursor: pointer;
+    width: 20%;
 }
 
 
