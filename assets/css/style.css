@@ -24,6 +24,10 @@ h1, h2 {
     padding: 20px;
 }
 
+p {
+    line-height: 200%;
+}
+
 #safari-logo {
     float: left;
     font-size: 300%;
@@ -578,6 +582,10 @@ footer {
     color: #ef9a5b;
 }
 
+.text-right h3 {
+    padding-top: 30px;
+}
+
 .text-left {
     padding-top: 3.5%;
     width: 40%;
@@ -585,7 +593,12 @@ footer {
 }
 
 .text-left h2 {
-    color: #111;
+    color: white;
+}
+
+.text-left h3 {
+    padding-top: 30px;
+    color: white;
 }
 
 .text-left p {
@@ -593,16 +606,13 @@ footer {
 }
 
 .text-left hr {
-    border-top: 2px solid white;
+    border-top: 2px solid #111;
     width: 100%;
     margin: 5px 0;
 }
 
 /* Enquiry page */
 
-.form-container {
-    background-color: #ef9a5b;
-}
 .enquiry-text {
     padding-top: 30px;
     width: 50%;
