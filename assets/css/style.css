@@ -601,9 +601,8 @@ footer {
 /* Enquiry page */
 
 .form-container {
-    background: #ef9a5b;
+    background-color: #ef9a5b;
 }
-
 .enquiry-text {
     padding-top: 30px;
     width: 50%;
@@ -646,6 +645,15 @@ button {
     cursor: pointer;
     width: 20%;
 }
+
+/* Enquiry form gallery */
+
+.row-gallery {
+    display: flex;
+    gap: 10px;
+}
+
+
 
 
 
