@@ -569,7 +569,7 @@ footer {
 }
 
 .text-right {
-    padding-top: 30px;
+    padding-top: 3.5%;
     width: 40%;
     float: right; 
 }
@@ -579,7 +579,7 @@ footer {
 }
 
 .text-left {
-    padding-top: 30px;
+    padding-top: 3.5%;
     width: 40%;
     float: left; 
 }
@@ -596,6 +596,47 @@ footer {
     border-top: 2px solid white;
     width: 100%;
     margin: 5px 0;
+}
+
+/* Enquiry page */
+
+.form-container {
+    background: #ef9a5b;
+}
+
+.enquiry-text {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+.form {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+input, textarea, select {
+    width: 80%;
+    padding: 15px 25px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-left: 2px solid #FE6B00;
+    border-radius: 5px;
+    font-family: Baskerville, sans-serif;
+    font-size: 110%;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-left: 10px solid #FE6B00;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    
 }
 
 
