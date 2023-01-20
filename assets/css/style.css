@@ -200,6 +200,23 @@ p {
     text-align: center;
 }
 
+/* Gallery section */
+
+.gallery-row {
+    display: flex;
+    margin: auto;
+  }
+  
+.gallery-col {
+    flex: 16.67%;
+    padding: 5px;
+    width: 100%;
+  }
+
+.gallery-image {
+    border-radius: 10%;
+}
+
 
 /* Headings and paragraph elements */
 h2 {
