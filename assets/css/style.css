@@ -30,7 +30,7 @@ h1,
 h2 {
     font-family: Baskerville, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3.5px;
+    letter-spacing: 3px;
     color: #FE6B00;
     padding: 20px;
 }
@@ -63,7 +63,7 @@ p {
 #menu-items {
     display: flex;
     font-size: 110%;
-    letter-spacing: 3.5px;
+    letter-spacing: 3px;
 }
 
 #menu-items li {
@@ -201,11 +201,17 @@ p {
     text-align: center;
 }
 
+.welcome-sub-heading {
+    margin-bottom: 45px;
+}
+
 /* Gallery section */
 
 .gallery-row {
     display: flex;
     margin: auto;
+    border-top: 2px solid #FE6B00;
+    border-bottom: 2px solid #FE6B00;
   }
   
 .gallery-col {
@@ -227,6 +233,7 @@ h2 {
     margin: 25px 0;
     text-align: center;
     font-size: 300%;
+    letter-spacing: 3px;
 }
 
 h3 {
@@ -234,6 +241,7 @@ h3 {
     color: #ef9a5b;
     text-align: center;
     font-size: 150%;
+    letter-spacing: 3px;
 }
 
 p {
@@ -390,18 +398,8 @@ footer {
 
 /* Accommodation page help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ */
 
-#room-intro {
-    text-align: center;
-    padding: 50px;
-    background: #111;
-    float: center;
-    border: 2px solid #FE6B00;
-    border-radius: 4px;
-    margin: 20px;
-}
-
 #rooms-section {
-    height: 600px;
+    height: 900px;
 }
 
 #left-about {
