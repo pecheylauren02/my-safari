@@ -37,6 +37,7 @@ h2 {
 
 p {
     line-height: 200%;
+    font-size: 110%;
 }
 
 #safari-logo {
@@ -478,12 +479,12 @@ footer {
 /* Activities page */
 
 .act-cont-left {
-    height: 800px;
+    height: 900px;
     background-color: #111;
 }
 
 .act-cont-right {
-    height: 800px;
+    height: 900px;
     background-color: black;
 }
 
@@ -536,9 +537,9 @@ footer {
 }
 
 .text-right {
-    padding-top: 3.5%;
     width: 40%;
     float: right;
+    margin: 0 auto;
 }
 
 .text-right h2 {
@@ -550,9 +551,9 @@ footer {
 }
 
 .text-left {
-    padding-top: 3.5%;
     width: 40%;
     float: left;
+    margin: 0 auto;
 }
 
 .text-left h2 {
