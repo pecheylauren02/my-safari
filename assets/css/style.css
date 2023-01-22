@@ -6,8 +6,7 @@
     border: none;
 }
 
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -16,10 +15,9 @@ body {
     font-weight: 400;
     color: #FE6B00;
     background-color: #000;
-    margin: 0;
 }
 
-body>footer {
+body > footer {
     position: sticky;
     top: 100vh;
 }
@@ -31,29 +29,32 @@ h2 {
     font-family: Baskerville, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #FE6B00;
-    padding: 20px;
+    color: #ef9a5b;
 }
+
+#safari-logo {
+    float: left;
+    font-size: 300%;
+}
+
+/* General Text elements */
 
 p {
     line-height: 200%;
     font-size: 110%;
 }
 
-#safari-logo {
-    float: left;
-    font-size: 300%;
-    margin: left;
-}
-
-/* Credits to https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
-/* Desktop view */
-/* Wrapper */
+/* Navigation links https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
 #menu-nav {
-    width: 100%;
-    background: #000;
+    font-size: 110%;
+    letter-spacing: 3px;
 }
 
+#menu-nav li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
 #menu-items,
 #safari-logo {
     line-height: 75px;
