@@ -122,7 +122,7 @@ p {
 .hero-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/lion_3.jpg');
     height: 800px;
-    width: 100%;
+    width: 130%;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,6 +151,8 @@ p {
 .hero-room {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/elephant_3.jpg');
     height: 600px;
+    width: 100%;
+    overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,6 +162,8 @@ p {
 .hero-activities {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/wide_zebra_pair.png');
     height: 600px;
+    width: 100%;
+    overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,6 +173,8 @@ p {
 .hero-enquiries {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/kudu_enquire.jpg');
     height: 600px;
+    width: 100%;
+    overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
