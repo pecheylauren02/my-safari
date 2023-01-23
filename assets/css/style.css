@@ -14,7 +14,7 @@ body {
     font-family: 'Baskerville', sans-serif;
     font-weight: 400;
     color: #FE6B00;
-    background-color: #000;
+    background: #111;
 }
 
 body > footer {
@@ -46,38 +46,39 @@ p {
 
 /* Navigation links https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
 #menu-nav {
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 3px;
+    opacity: 95%;
 }
 
 #menu-nav li {
     float: right;
     margin-right: 30px;
     list-style-type: none;
+    display: inline;
 }
+
 #menu-nav,
 #safari-logo {
     line-height: 75px;
 }
 
-#menu-nav li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
 #menu-nav a {
     text-decoration: none;
-    color: inherit;
+    text-transform: uppercase;
+    color: white;
 }
 
 #menu-nav a:hover {
-    border-left: 4px solid #FE6B00;
-    color: #FE6B00;
+    border-top: 2px solid #FE6B00;
+    border-right: 2px solid #FE6B00;
+    color: white;
+    font-size: 110%;
 }
 
 .active {
-    border-left: 1.5px solid #FE6B00;
+    border-top: 2px solid #FE6B00;
+    border-right: 2px solid #FE6B00;
 }
 
 /* Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
