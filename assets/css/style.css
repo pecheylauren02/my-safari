@@ -24,8 +24,7 @@ body > footer {
 
 /* headings and logo ideas from CI */
 
-h1,
-h2 {
+h1 {
     font-family: Baskerville, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -40,12 +39,14 @@ h2 {
 /* General Text elements */
 
 h2 {
+    font-family: Baskerville, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 3px;
     color: #FE6B00;
     text-align: center;
     margin: 25px 0;
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
     letter-spacing: 3px;
 }
 
@@ -506,10 +507,6 @@ footer {
     margin: 0 auto;
 }
 
-.text-right h2 {
-    color: #ef9a5b;
-}
-
 .text-right h3 {
     padding-top: 30px;
 }
@@ -518,10 +515,6 @@ footer {
     width: 40%;
     float: left;
     margin: 0 auto;
-}
-
-.text-left h2 {
-    color: #ef9a5b;
 }
 
 .text-left h3 {
