@@ -105,18 +105,12 @@ p {
 }
 
 #menu-nav a:hover {
-    color: white;
-    font-size: 110%;
-    border-top: 2px solid #FE6B00;
-    border-right: 2px solid #FE6B00;
-    border-left: 2px solid #FE6B00;
-    padding: 20px;
+    color: #FE6B00;
 }
 
 .active {
-    border-top: 2px solid #FE6B00;
-    border-right: 2px solid #FE6B00;
-    border-left: 2px solid #FE6B00;
+    color: #FE6B00;
+    border: 1px solid #FE6B00;
     padding: 20px;
 }
 
@@ -197,9 +191,9 @@ p {
     margin: auto;
     width: 35%;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     float: left;
-    padding: 5% 0%;
+    padding: 5% 2%;
 }
 
 .welcome-vid {
