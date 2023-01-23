@@ -73,6 +73,7 @@ p {
     font-size: 100%;
     letter-spacing: 3px;
     opacity: 95%;
+    width: 130%;
 }
 
 #menu-nav li {
@@ -186,7 +187,7 @@ p {
 
 .welcome-container {
     height: 100%;
-    width: 100%;
+    width: 130%;
     background-color: #111;
 }
 
@@ -195,6 +196,10 @@ p {
     width: 50%;
     padding: 10px;
     text-align: center;
+}
+
+.welcome-title {
+    font-size: 300%;
 }
 
 .welcome-sub-heading {
@@ -213,7 +218,7 @@ p {
 .gallery-col {
     flex: 16.67%;
     padding: 5px;
-    width: 100%;
+    width: 130%;
   }
 
 .gallery-image {
@@ -225,6 +230,7 @@ p {
 #reasons-section {
     height: 100%;
     background: #000;
+    width: 130%;
 }
 
 #left-reasons {
@@ -267,7 +273,7 @@ hr {
     margin-bottom: 45px;
 }
 
-.right-reasons-heading>h2 {
+.right-reasons-heading > h2 {
     color: #ef9a5b;
     font-size: 150%;
 }
