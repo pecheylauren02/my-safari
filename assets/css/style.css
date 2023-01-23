@@ -383,10 +383,15 @@ footer {
     text-transform: capitalize;
 }
 
+/* Testing flip over image */
+
+
+
 /* Accommodation page help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ */
 
 #rooms-section {
-    height: 900px;
+    height: 100%;
+    padding: 20px;
 }
 
 #left-about {
@@ -434,21 +439,21 @@ footer {
 }
 
 .left-about-heading {
-    width: 60%;
+    width: 70%;
     float: center;
     text-align: left;
     margin: 5% 20% 5% 20%;
 }
 
 .right-about-heading {
-    width: 60%;
+    width: 70%;
     float: center;
     text-align: left;
     margin: 5% 20% 5% 20%;
 }
 
 .center-about-heading {
-    width: 60%;
+    width: 70%;
     float: center;
     text-align: center;
     margin: 5% 20% 5% 20%;
