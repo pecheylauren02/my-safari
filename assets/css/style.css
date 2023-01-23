@@ -195,9 +195,18 @@ p {
 
 .welcome-row {
     margin: auto;
-    width: 45%;
+    width: 35%;
     padding: 10px;
     text-align: center;
+    float: left;
+    padding: 5% 0%;
+}
+
+.welcome-vid {
+    float: right;
+    width: 55%;
+    display: block;
+    padding: 5% 0%;
 }
 
 .welcome-title {
