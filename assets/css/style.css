@@ -613,5 +613,38 @@ button {
     width: 20%;
 }
 
-/* Enquiry form gallery */
+/* Media Queries */
+
+@media-screen and (max-width: 1200px) {
+    #reasons-section {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #main-reasons-heading {
+        padding: 30px;
+        margin: 0;
+    }
+
+    #left-reasons, #right-reasons {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu-nav {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
 
