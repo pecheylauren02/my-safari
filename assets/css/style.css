@@ -15,6 +15,7 @@ body {
     font-weight: 400;
     color: #FE6B00;
     background: #111;
+    overflow-x: hidden;
 }
 
 body > footer {
@@ -73,7 +74,7 @@ p {
     font-size: 100%;
     letter-spacing: 3px;
     opacity: 95%;
-    width: 130%;
+    width: 100%;
 }
 
 #menu-nav li {
@@ -124,7 +125,7 @@ p {
 .hero-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/lion_3.jpg');
     height: 800px;
-    width: 130%;
+    width: 100%;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -187,7 +188,7 @@ p {
 
 .welcome-container {
     height: 100%;
-    width: 130%;
+    width: 100%;
     background-color: #111;
 }
 
@@ -218,7 +219,7 @@ p {
 .gallery-col {
     flex: 16.67%;
     padding: 5px;
-    width: 130%;
+    width: 100%;
   }
 
 .gallery-image {
@@ -230,7 +231,7 @@ p {
 #reasons-section {
     height: 100%;
     background: #000;
-    width: 130%;
+    width: 100%;
 }
 
 #left-reasons {
