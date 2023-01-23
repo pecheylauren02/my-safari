@@ -6,7 +6,8 @@
     border: none;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -19,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-body > footer {
+body>footer {
     position: sticky;
     top: 100vh;
 }
@@ -70,7 +71,7 @@ p {
 }
 
 /* Navigation links https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
-    
+
 #menu-nav {
     font-size: 100%;
     letter-spacing: 3px;
@@ -220,13 +221,13 @@ p {
     border-top: 2px solid #FE6B00;
     border-bottom: 2px solid #FE6B00;
     background: #000;
-  }
-  
+}
+
 .gallery-col {
     flex: 16.67%;
     padding: 5px;
     width: 100%;
-  }
+}
 
 .gallery-image {
     border-radius: 10%;
@@ -280,7 +281,7 @@ hr {
     margin-bottom: 45px;
 }
 
-.right-reasons-heading > h2 {
+.right-reasons-heading>h2 {
     color: #ef9a5b;
     font-size: 150%;
 }
@@ -432,20 +433,56 @@ footer {
     margin: 0 auto;
 }
 
-#luxury-cover-background {
-    background: url('../images/luxury.jpg') no-repeat center center;
+#pres-suite {
+    background: url('../images/accommodation_images/pres_suite.jpg') no-repeat center center;
     height: 300px;
     border-radius: 50%;
 }
 
-#lodge-cover-background {
-    background: url('../images/lodge.jpg') no-repeat center center;
+#delx-room {
+    background: url('../images/accommodation_images/exec_suite.jpg') no-repeat center center;
     height: 300px;
     border-radius: 50%;
 }
 
-#tent-cover-background {
-    background: url('../images/tent.jpg') no-repeat center center;
+#honeymoon-suite {
+    background: url('../images/accommodation_images/honeymoon.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#nyati-lodge {
+    background: url('../images/accommodation_images/lodge1.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#ingwe-lodge {
+    background: url('../images/accommodation_images/lodge2.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#nzou-lodge {
+    background: url('../images/accommodation_images/lodge3.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#tent-1 {
+    background: url('../images/accommodation_images/tent1.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#tent-2 {
+    background: url('../images/accommodation_images/tent2.jpg') no-repeat center center;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#tent-3 {
+    background: url('../images/accommodation_images/tent3.jpg') no-repeat center center;
     height: 300px;
     border-radius: 50%;
 }
@@ -475,6 +512,7 @@ footer {
     color: #04AA6D;
     text-transform: capitalize;
 }
+
 /* Activities page */
 
 .act-cont-left {
@@ -627,7 +665,8 @@ button {
         margin: 0;
     }
 
-    #left-reasons, #right-reasons {
+    #left-reasons,
+    #right-reasons {
         width: 100%;
         float: left;
         padding: 0;
@@ -647,4 +686,3 @@ button {
         line-height: 25px;
     }
 }
-
