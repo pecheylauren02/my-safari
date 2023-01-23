@@ -388,8 +388,20 @@ footer {
 
 
 /* Accommodation page help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ */
+#luxury-section {
+    background: #000;
+    height: 100%;
+    padding: 20px;
+}
 
-#rooms-section {
+#lodge-section {
+    background: #111;
+    height: 100%;
+    padding: 20px;
+}
+
+#tent-section {
+    background: #000;
     height: 100%;
     padding: 20px;
 }
@@ -459,12 +471,10 @@ footer {
     margin: 5% 20% 5% 20%;
 }
 
-.facilities {
-    list-style-type: none;
-    color: white;
-    line-height: 200%;
+.room-cost {
+    color: #04AA6D;
+    text-transform: capitalize;
 }
-
 /* Activities page */
 
 .act-cont-left {
