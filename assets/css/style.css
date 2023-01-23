@@ -34,7 +34,7 @@ h2 {
 
 #safari-logo {
     float: left;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 /* General Text elements */
@@ -60,7 +60,15 @@ p {
 
 #menu-nav,
 #safari-logo {
-    line-height: 75px;
+    line-height: 120px;
+}
+
+#safari-logo i {
+    color: #FE6B00;
+}
+
+#safari-logo:hover {
+    font-size: 300%;
 }
 
 #menu-nav a {
