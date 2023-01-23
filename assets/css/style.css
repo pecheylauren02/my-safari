@@ -46,7 +46,7 @@ p {
 
 /* Navigation links https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
 #menu-nav {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 3px;
 }
 
@@ -55,79 +55,29 @@ p {
     margin-right: 30px;
     list-style-type: none;
 }
-#menu-items,
+#menu-nav,
 #safari-logo {
     line-height: 75px;
 }
 
-/* Horizontal menu items */
-#menu-items {
-    display: flex;
-    font-size: 110%;
-    letter-spacing: 3px;
-}
-
-#menu-items li {
+#menu-nav li {
     float: right;
     list-style-type: none;
-    margin-right: 28px;
+    margin-right: 30px;
 }
 
-#menu-items a {
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: 12px;
-    color: white;
-    text-align: center;
+#menu-nav a {
     text-decoration: none;
+    color: inherit;
 }
 
-#menu-items a:hover {
-    border-bottom: 1.5px solid #FE6B00;
+#menu-nav a:hover {
+    border-left: 4px solid #FE6B00;
     color: #FE6B00;
 }
 
 .active {
-    border-bottom: 1.5px solid #FE6B00;
-}
-
-/* Close menu */
-
-#menu-nav label,
-#menu {
-    display: none;
-}
-
-/* Mobile view */
-
-@media screen and (max-width: 768px) {
-
-    /* Vertical Menu */
-    #menu-items a {
-        box-sizing: border-box;
-        display: block;
-        width: 100%;
-        border-top: 2px solid #333;
-    }
-
-    /* Show menu icon */
-    #menu-nav label {
-        display: inline-block;
-        color: white;
-        background: rgb(72, 72, 72);
-        font-style: normal;
-        font-size: 1.3rem;
-        padding: 9px;
-    }
-
-    /* Hide or Close Menu */
-    #menu-items {
-        display: none;
-    }
-
-    #menu-nav input:checked~#menu-items {
-        display: block;
-    }
+    border-left: 1.5px solid #FE6B00;
 }
 
 /* Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
@@ -136,6 +86,8 @@ p {
 .hero-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/lion_3.jpg');
     height: 800px;
+    width: 100%;
+    overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
