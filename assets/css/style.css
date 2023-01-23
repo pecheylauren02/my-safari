@@ -39,12 +39,35 @@ h2 {
 
 /* General Text elements */
 
+h2 {
+    text-transform: uppercase;
+    color: #FE6B00;
+    text-align: center;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 3px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #ef9a5b;
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+
 p {
+    font-family: Baskerville, sans-serif;
+    color: white;
+    margin: 20px;
+    padding: 10px;
     line-height: 200%;
     font-size: 110%;
 }
 
 /* Navigation links https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
+    
 #menu-nav {
     font-size: 100%;
     letter-spacing: 3px;
@@ -78,15 +101,19 @@ p {
 }
 
 #menu-nav a:hover {
-    border-top: 2px solid #FE6B00;
-    border-right: 2px solid #FE6B00;
     color: white;
     font-size: 110%;
+    border-top: 2px solid #FE6B00;
+    border-right: 2px solid #FE6B00;
+    border-left: 2px solid #FE6B00;
+    padding: 20px;
 }
 
 .active {
     border-top: 2px solid #FE6B00;
     border-right: 2px solid #FE6B00;
+    border-left: 2px solid #FE6B00;
+    padding: 20px;
 }
 
 /* Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
@@ -184,33 +211,6 @@ p {
 
 .gallery-image {
     border-radius: 10%;
-}
-
-
-/* Headings and paragraph elements */
-h2 {
-    text-transform: uppercase;
-    color: #FE6B00;
-    text-align: center;
-    margin: 25px 0;
-    text-align: center;
-    font-size: 300%;
-    letter-spacing: 3px;
-}
-
-h3 {
-    text-transform: uppercase;
-    color: #ef9a5b;
-    text-align: center;
-    font-size: 150%;
-    letter-spacing: 3px;
-}
-
-p {
-    font-family: Baskerville, sans-serif;
-    color: white;
-    margin: 20px;
-    padding: 10px;
 }
 
 /* reasons section ideas from CI */
@@ -349,6 +349,10 @@ footer {
 
 .social-links i:hover {
     color: white;
+}
+
+.copyright-content {
+    float: left;
 }
 
 .copyright-content p {
