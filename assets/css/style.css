@@ -10,6 +10,7 @@ html, body {
     height: 100%;
 }
 
+/* Fixed bug for blank space https://www.quora.com/Why-do-I-have-random-white-space-appearing-to-the-right-of-the-web-page-outside-of-body-tags */
 body {
     font-family: 'Baskerville', sans-serif;
     font-weight: 400;
