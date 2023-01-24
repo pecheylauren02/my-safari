@@ -677,6 +677,8 @@ button {
     }
 }
 
+
+/* For medium screen sizes from 950px wide and below */
 @media screen and (max-width: 950px) {
     #menu-nav {
         clear: left;
