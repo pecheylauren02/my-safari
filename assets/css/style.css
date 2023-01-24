@@ -683,6 +683,7 @@ button {
     #hero-about-caption {
         left: 0;
     }
+
 }
  
 
@@ -691,6 +692,11 @@ button {
     #menu-nav a {
         float: none;
         display: block;
+        text-align: left;
+    }
+    
+    #safari-logo {
+        float: none;
     }
 }
     
