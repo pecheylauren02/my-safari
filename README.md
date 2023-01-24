@@ -2,7 +2,11 @@
 
 The Sable Safari website is a site for tourists and local travellers looking to visit Zimbabwe and book an exciting safari getaway. Sable Safari offers accommodation and activities to meet the needs of all types of traveller: from adrenaline-junkies to wildlife enthusiasts, and even people who simply want to relax and enjoy the african sunset. 
 
-Users will be able to find general information about the Safari Lodge, as well as the various activities they can indulge in upon arrival. They can also look at the types of rooms they'd like to stay in, and make enquiries through the enquiry form page. 
+Users will be able to find general information about the Safari getaway, as well as the various activities they can indulge in upon arrival. They can also look at the types of rooms they'd like to stay in, and make enquiries through the enquiry form page. 
+
+### Target Audience
+
+Sable Safari is designed for users who are interested in booking a safari holiday in Zimbabwe, and offers easy-to-navigate pages to allow travellers to get a feel of what is offered. 
 
 ## Features
 
@@ -51,6 +55,58 @@ Users will be able to find general information about the Safari Lodge, as well a
 ### Features left to implement
 
 - Another feature idea
+
+## User Experience
+
+The website was designed to be both eye-catching and easy-to-navigate, to provide the users with an informative, exciting and simple outline of what they can expect if they decide to visit Sable Safari. The simplicity of the website makes it easy for adults, teenagers and even children to explore what is offered and what they can participate in upon arrival.
+
+### User Stories
+
+The User Stories were divided into four categories: "Must Have", "Should Have", "Could Have" and "Won't Have". All categories of the user stories were included in the final deployment of the Sable Safari website. 
+
+- Include screenshot of user story template used
+
+### New User Goals
+
+- Include table of user stories here
+
+## Technology 
+This website used a combination of two different languages, and some web tools for the initial planning. A list of those included in the project can be seen as follows: 
+
+- Languages:
+     - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+     - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+- Tools 
+     - [Balsamiq](https://balsamiq.com/)
+          - Balsamiq was used to create wireframes during the initial design process.
+     - [Git](https://git-scm.com/)
+          - Git was used along with the [Gitpod](https://www.gitpod.io/) terminal in order to commit and push work into the global staging branch of the app on GitHub.
+     - [GitHub:](https://github.com/)
+          - GitHub was used to save versions of the code for the entire project after each branch was pushed from Git.
+
+## Initial MVP idea
+Describe here
+
+### Actual idea and content
+
+Describe here
+
+## Design
+
+### Color Scheme
+Describe here
+Image here of color palette
+
+### Typography 
+
+
+### Imagery
+In the top, left corner of each page, a Safari logo with paw icons on either side can be seen. Clicking it will direct the user back to the "About Us" page.
+
+image here
+
+To illustrate the "About Us" Page, 
 
 ## Testing
 
