@@ -699,6 +699,34 @@ button {
         font-size: 75%;
     }
 
+    .welcome-container {
+        margin: 0 auto;
+    }
+
+    .welcome-row {
+        width: 100%;
+        text-align: center;
+        font-size: 120%;
+    }
+    
+    .welcome-vid {
+        width: 100%;
+    }
+
+    .gallery-row {
+        display: flex;
+        margin: auto;
+    }
+
+    .gallery-col {
+        padding: 3.75px;
+    }
+    
+    .gallery-col img {
+        width: 150px;
+        height: 150px;
+    }
+
     #reasons-section {
         width: 90%;
         margin: 0 auto;
