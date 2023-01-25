@@ -108,7 +108,7 @@ p {
 .active {
     color: #FE6B00;
     border: 1px solid #FE6B00;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
@@ -647,44 +647,44 @@ button {
 
 /* Media Queries */
 
-@media-screen and (max-width: 1350px) {
-    #reasons-section {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
+/* For large screen sizes from 1147px wide and below */
 
-    #main-reasons-heading {
-        padding: 30px 0;
-        margin: 0;
-    }
+@media screen and (max-width: 1167px) {
+    #menu-nav {
+        font-size: 90%;
+    } 
 
-    #left-reasons,
-    #right-reasons {
-        width: 100%;
-        float: left;
-        padding: 0;
+    #safari-logo {
+        font-size: 200%;
     }
+}
 
-    hr {
-        display: none;
+/* 1036 px and below */
+
+@media screen and (max-width: 1036px) {
+    #menu-nav {
+        font-size: 80%;
+    } 
+
+    #safari-logo {
+        font-size: 180%;
     }
 }
 
 
 /* For medium screen sizes from 950px wide and below */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 961px) {
     h1, h2, p {
         font-size: 100%;
     }
-    
-    #menu-nav {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+
+    #menu-nav a {
+        padding: 5px;
         font-size: 90%;
+    }
+
+    #safari-logo {
+        font-size: 180%;
     }
 
     .hero-about {
