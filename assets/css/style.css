@@ -63,7 +63,7 @@ h3 {
 
 p {
     font-family: Baskerville, sans-serif;
-    color: white;
+    color: #FFFFFF;
     margin: 20px;
     padding: 10px;
     line-height: 200%;
@@ -98,7 +98,7 @@ p {
 #menu-nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #FFFFFF;
 }
 
 #menu-nav a:hover {
@@ -116,7 +116,7 @@ p {
 
 .hero-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/lion_3.jpg');
-    height: 800px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     background-position: center;
@@ -130,7 +130,7 @@ p {
     position: absolute;
     top: 70%;
     left: 25%;
-    color: white;
+    color: #FFFFFF;
     transform: translate(-50%, -50%);
 }
 
@@ -184,13 +184,11 @@ p {
     background-color: #000;
 }
 
-.welcome-row {
-    margin: auto;
+.welcome-col {
     width: 35%;
-    padding: 10px;
     text-align: left;
     float: left;
-    padding: 5% 2%;
+    padding-left: 5%;
 }
 
 .welcome-vid {
@@ -299,7 +297,7 @@ hr {
     padding: 10px 20px;
     text-align: center;
     background-color: #04AA6D;
-    color: white;
+    color: #FFFFFF;
     border: none;
     border-radius: 4px;
     font-family: Baskerville, sans-serif;
@@ -337,7 +335,7 @@ footer {
 
 .contact {
     list-style-type: none;
-    color: white;
+    color: #FFFFFF;
     max-width: 500px;
     margin: 12px auto;
     line-height: 30px;
@@ -366,7 +364,7 @@ footer {
 }
 
 .social-links i:hover {
-    color: white;
+    color: #FFFFFF;
 }
 
 .copyright-content {
@@ -374,7 +372,7 @@ footer {
 }
 
 .copyright-content p {
-    color: white;
+    color: #FFFFFF;
     float: center;
     font-size: 15px;
     text-transform: capitalize;
@@ -637,7 +635,7 @@ textarea {
 
 button {
     background-color: #04AA6D;
-    color: white;
+    color: #FFFFFF;
     padding: 16px 32px;
     text-transform: uppercase;
     font-family: Baskerville, sans-serif;
@@ -677,7 +675,7 @@ button {
 /* For medium screen sizes from 950px wide and below */
 @media screen and (max-width: 950px) {
     h1, h2, p {
-        font-size: 90%;
+        font-size: 100%;
     }
     
     #menu-nav {
@@ -690,7 +688,7 @@ button {
     }
 
     .hero-about {
-        height: 600px;
+        height: 400px;
     }
 
     .hero-about-caption {
@@ -699,14 +697,11 @@ button {
         font-size: 75%;
     }
 
-    .welcome-container {
-        margin: 0 auto;
-    }
-
-    .welcome-row {
+    .welcome-col {
         width: 100%;
-        text-align: center;
-        font-size: 120%;
+        text-align: left;
+        padding-top: 0px;
+        padding-left: 10px;
     }
     
     .welcome-vid {
@@ -728,12 +723,12 @@ button {
     }
 
     #reasons-section {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
     .left-reasons-heading, .right-reasons-heading {
-        width: inherit;
+        width: 100%;
     }
 
     .left-reasons-heading h2, .right-reasons-heading h2 {
@@ -765,7 +760,7 @@ button {
     }
 
     #safari-logo:hover {
-        color: white;
+        color: #FFFFFF;
     }
 
     .active {
