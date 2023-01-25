@@ -125,7 +125,7 @@ p {
     position: relative;
 }
 
-.hero-about-caption {
+.hero-caption {
     text-align: center;
     position: absolute;
     top: 70%;
@@ -134,12 +134,12 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.hero-about-caption h1 {
+.hero-caption h1 {
     font-size: 400%;
     color: #ef9a5b;
 }
 
-.hero-about-caption p {
+.hero-caption p {
     font-size: 180%;
 }
 
@@ -667,14 +667,14 @@ button {
 
 @media screen and (max-width: 1385px) {
     #menu-nav {
-        font-size: 80%;
+        font-size: 90%;
     } 
 
     #safari-logo {
         font-size: 200%;
     }
 
-    .hero-about {
+    .hero-about, .hero-activities, .hero-room, .hero-enquiries {
         height: 400px;
     }
 
@@ -744,7 +744,7 @@ button {
         z-index: 0;
     }
 
-    .hero-about-caption {
+    .hero-caption {
         top: 60%;
         left: 40%;
         font-size: 75%;
