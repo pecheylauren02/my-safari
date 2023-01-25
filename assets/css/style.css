@@ -302,6 +302,11 @@ hr {
     border-radius: 4px;
     font-family: Baskerville, sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.find-out-activities:hover {
+    text-decoration: underline;
 }
 
 /* footer section help from https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ */
@@ -720,12 +725,18 @@ button {
     .left-reasons-heading h2, .right-reasons-heading h2 {
         width: 100%;
         text-align: center;
+        text-decoration: underline #FE6B00;
     }
 
     .left-reasons-heading p, .right-reasons-heading p {
         text-align: center;
         padding: 0 20px;
     }
+
+    hr {
+        display: none;
+    }
+}
 
 
 /* For medium screen sizes from 950px wide and below */
@@ -764,33 +775,13 @@ button {
         padding: 0;
     }
 
-    .iframe {
-        width: 600px;
-        height: 400px;
-    }
-
     .gallery-col img {
         height: 140px;
         width: 140px;
     }
 
-    #reasons-section {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .left-reasons-heading, .right-reasons-heading {
-        width: 100%;
-    }
-
     .left-reasons-heading h2, .right-reasons-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-reasons-heading p, .right-reasons-heading p {
-        text-align: center;
-        padding: 0 20px;
+        text-decoration: none;
     }
 }
 
