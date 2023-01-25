@@ -88,7 +88,7 @@ p {
 
 #menu-nav,
 #safari-logo {
-    line-height: 120px;
+    line-height: 100px;
 }
 
 #safari-logo i {
@@ -179,13 +179,13 @@ p {
 /* welcome section */
 
 .welcome-container {
-    height: 100%;
+    height: 90%;
     width: 100%;
     background-color: #111;
 }
 
 .welcome-col {
-    width: 35%;
+    width: 40%;
     text-align: left;
     float: left;
     padding-left: 5%;
@@ -193,7 +193,7 @@ p {
 
 .welcome-vid {
     float: right;
-    width: 55%;
+    width: 50%;
     display: block;
     padding: 5% 0%;
 }
@@ -647,9 +647,9 @@ button {
 
 /* Media Queries */
 
-/* For large screen sizes from 1147px wide and below */
+/* For large screen sizes from 1385px wide and below */
 
-@media screen and (max-width: 1167px) {
+/* @media screen and (max-width: 1385px) {
     #menu-nav {
         font-size: 90%;
     } 
@@ -657,19 +657,75 @@ button {
     #safari-logo {
         font-size: 200%;
     }
+
+    .gallery-col img {
+        height: 180px;
+        width: 180px;
+    }
 }
+*/
 
-/* 1036 px and below */
-
-@media screen and (max-width: 1036px) {
+@media screen and (max-width: 1385px) {
     #menu-nav {
         font-size: 80%;
     } 
 
     #safari-logo {
-        font-size: 180%;
+        font-size: 200%;
     }
-}
+
+    .hero-about {
+        height: 400px;
+    }
+
+    .welcome-container {
+        height: 115%;
+    }
+
+    .welcome-col {
+        width: 65%;
+        float: left;
+        text-align: center;
+        padding-top: 0;
+        padding-left: 10px;
+    }
+    
+    .welcome-vid {
+        width: 65%;
+        float: right;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .iframe {
+        width: 600px;
+        height: 400px;
+    }
+
+    .gallery-col img {
+        height: 160px;
+        width: 160px;
+    }
+
+    #reasons-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .left-reasons-heading, .right-reasons-heading {
+        width: 100%;
+    }
+
+    .left-reasons-heading h2, .right-reasons-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-reasons-heading p, .right-reasons-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 
 
 /* For medium screen sizes from 950px wide and below */
@@ -683,12 +739,9 @@ button {
         font-size: 90%;
     }
 
-    #safari-logo {
-        font-size: 180%;
-    }
-
-    .hero-about {
-        height: 400px;
+    #menu-nav ul {
+        position: relative;
+        z-index: 0;
     }
 
     .hero-about-caption {
