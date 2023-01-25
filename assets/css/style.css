@@ -181,7 +181,7 @@ p {
 .welcome-container {
     height: 100%;
     width: 100%;
-    background-color: #000;
+    background-color: #111;
 }
 
 .welcome-col {
@@ -231,7 +231,7 @@ p {
 
 #reasons-section {
     height: 100%;
-    background: #111;
+    background: #000;
     width: 100%;
 }
 
@@ -700,26 +700,25 @@ button {
     .welcome-col {
         width: 100%;
         text-align: left;
-        padding-top: 0px;
+        padding-top: 0;
         padding-left: 10px;
     }
     
     .welcome-vid {
         width: 100%;
+        display: block;
+        text-align: center;
+        padding: 0;
     }
 
-    .gallery-row {
-        display: flex;
-        margin: auto;
+    .iframe {
+        width: 600px;
+        height: 400px;
     }
 
-    .gallery-col {
-        padding: 3.75px;
-    }
-    
     .gallery-col img {
-        width: 150px;
-        height: 150px;
+        height: 140px;
+        width: 140px;
     }
 
     #reasons-section {
