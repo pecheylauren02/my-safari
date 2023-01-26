@@ -503,7 +503,7 @@ footer {
 .center-about-heading {
     width: 70%;
     float: center;
-    text-align: center;
+    text-align: left;
     margin: 5% 20% 5% 20%;
 }
 
@@ -745,15 +745,19 @@ button {
 }
 
 @media screen and (max-width: 1204px) {
-    
+
     .hero-caption {
         top: 60%;
         left: 40%;
     }
-    #luxury-section, #lodge-section, #tent-section {
+
+    #luxury-section,
+    #lodge-section,
+    #tent-section {
         width: 100%;
-        height: 1600px;
+        height: 1700px;
         margin: 0 auto;
+        padding: 0;
     }
 
     #main-reasons-heading {
@@ -761,17 +765,22 @@ button {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 50%;
         float: left;
         padding: 0;
     }
-    
+
     #center-about {
         clear: both;
         width: 50%;
         float: center;
         padding: 0;
+    }
+
+    .left-about-heading, .right-about-heading, .center-about-heading {
+        text-align: center;
     }
 
 
@@ -800,7 +809,7 @@ button {
     .hero-caption {
         top: 60%;
         left: 40%;
-        font-size: 75%;
+        font-size: 85%;
     }
 
     .welcome-col {
@@ -827,7 +836,16 @@ button {
         text-decoration: none;
     }
 
-    #circular-container, #pres-suite, #delx-room, #honeymoon-suite, #nyati-lodge, #nzou-lodge, #ingwe-lodge, #tent-1, #tent-2, #tent-3 {
+    #circular-container,
+    #pres-suite,
+    #delx-room,
+    #honeymoon-suite,
+    #nyati-lodge,
+    #nzou-lodge,
+    #ingwe-lodge,
+    #tent-1,
+    #tent-2,
+    #tent-3 {
         width: 250px;
         height: 250px;
     }
@@ -835,7 +853,7 @@ button {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .hero-about-caption {
         top: 50%;
         left: 50%;
@@ -861,6 +879,16 @@ button {
         border-top: none;
         border-left: none;
         border-right: none;
+    }
+
+    #luxury-section,
+    #lodge-section,
+    #tent-section {
+        height: 2000px;
+    }
+
+    #left-about, #right-about, #center-about {
+        width: 100%;
     }
 }
 
