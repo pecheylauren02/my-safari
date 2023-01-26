@@ -582,20 +582,23 @@ footer {
 /* Enquiry page */
 
 .form-container {
-    background-color: #111;
+    background-color: #000;
+    width: 100%;
+    height: 1000px;
 }
 
 .enquiry-text {
-    padding: 30px;
-    width: 45%;
-    float: right;
-}
-
-.form {
-    padding: 30px;
     width: 45%;
     float: left;
-    margin-left: 3%;
+    padding-top: 3%;
+    margin-left: 5%;
+}
+
+.enquiry-form {
+    width: 45%;
+    float: right;
+    margin-left: 5%;
+    padding-top: 3%;
 }
 
 .form-heading {
@@ -635,6 +638,7 @@ button {
     margin: 5px 3px;
     cursor: pointer;
     width: 20%;
+    border-radius: 5px;
 }
 
 /* Media Queries */
@@ -664,13 +668,6 @@ button {
 
     #safari-logo {
         font-size: 200%;
-    }
-
-    .hero-about,
-    .hero-activities,
-    .hero-room,
-    .hero-enquiries {
-        height: 400px;
     }
 
     .welcome-container {
@@ -798,12 +795,6 @@ button {
 /* For medium screen sizes from 950px wide and below */
 @media screen and (max-width: 961px) {
 
-    h1,
-    h2,
-    p {
-        font-size: 100%;
-    }
-
     #menu-nav a {
         padding: 5px;
         font-size: 90%;
@@ -855,6 +846,19 @@ button {
     #tent-3 {
         width: 250px;
         height: 250px;
+    }
+
+    .form-container {
+        height: 1500px;
+    }
+    .enquiry-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .enquiry-text {
+        width: 80%;
+        padding-left: 5%;
     }
 
 }
@@ -920,6 +924,19 @@ button {
 
     .text-left {
         margin-left: 10%;
+    }
+
+    .form-container {
+        height: 1700px;
+    }
+    .enquiry-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .enquiry-text {
+        width: 80%;
+        padding-left: 5%;
     }
 }
 
