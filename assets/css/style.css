@@ -915,21 +915,16 @@ button {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .hero-about-caption {
         top: 50%;
         left: 50%;
     }
 
     #menu-nav a {
-        font-size: 0.5rem;
         float: none;
         display: block;
         text-align: left;
-    }
-
-    #safari-logo {
-        font-size: 0.75rem;
     }
 
     #safari-logo:hover {
@@ -951,6 +946,11 @@ button {
 
     #left-about, #right-about, #center-about {
         width: 100%;
+    }
+
+    .left-about-heading, .right-about-heading, .center-about-heading {
+        margin: auto;
+        padding: 5% 0%;
     }
 
     .act-cont-left, .act-cont-right {
