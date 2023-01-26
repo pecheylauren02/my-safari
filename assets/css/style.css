@@ -128,8 +128,8 @@ p {
 .hero-caption {
     text-align: center;
     position: absolute;
-    top: 70%;
-    left: 25%;
+    top: 65%;
+    left: 30%;
     color: #FFFFFF;
     transform: translate(-50%, -50%);
 }
@@ -515,13 +515,15 @@ footer {
 /* Activities page */
 
 .act-cont-left {
-    height: 900px;
+    height: 1000px;
     background-color: #111;
+    padding-top: 5%;
 }
 
 .act-cont-right {
-    height: 900px;
-    background-color: black;
+    height: 1000px;
+    background-color: #000;
+    padding-top: 5%;
 }
 
 .image-gamedrive {
@@ -533,7 +535,6 @@ footer {
     height: 80%;
     width: 55%;
     float: left;
-    margin-top: 5%;
 }
 
 .image-rafting {
@@ -545,7 +546,6 @@ footer {
     height: 80%;
     width: 55%;
     float: right;
-    margin-top: 5%;
 }
 
 .image-bungee {
@@ -557,7 +557,6 @@ footer {
     height: 80%;
     width: 55%;
     float: left;
-    margin-top: 5%;
 }
 
 .image-cruise {
@@ -569,7 +568,6 @@ footer {
     height: 80%;
     width: 55%;
     float: right;
-    margin-top: 5%;
 }
 
 .text-right {
@@ -782,6 +780,59 @@ button {
     .left-about-heading, .right-about-heading, .center-about-heading {
         text-align: center;
     }
+ /*
+    .image-gamedrive {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center-top;
+        border-radius: 0% 15% 15% 0%;
+        background: url('../images/gamedrive.jpg') no-repeat center center;
+        height: 80%;
+        width: 55%;
+        float: left;
+    }
+    
+    .image-rafting {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center-top;
+        border-radius: 15% 0% 0% 15%;
+        background: url('../images/rafting.jpg') no-repeat center center;
+        height: 80%;
+        width: 55%;
+        float: right;
+    }
+    
+    .image-bungee {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center-top;
+        border-radius: 0% 15% 15% 0%;
+        background: url('../images/bungee_jumping_1.jpg') no-repeat center center;
+        height: 80%;
+        width: 55%;
+        float: left;
+    }
+    
+    .image-cruise {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center-top;
+        border-radius: 15% 0% 0% 15%;
+        background: url('../images/cruise.png') no-repeat center center;
+        height: 80%;
+        width: 55%;
+        float: right;
+    } */
+
+    .image-bungee, .image-gamedrive, .image-rafting, .image-cruise {
+        width: 55%;
+        height: 90%;
+    }
+
+    .text-left, .text-right {
+        width: 45%;
+    }
 
 
 }
@@ -850,6 +901,24 @@ button {
         height: 250px;
     }
 
+    .act-cont-left, .act-cont-right {
+        height: 1000px;
+        width: 100%;
+    }
+    
+    .image-rafting, .image-cruise, .image-gamedrive, .image-bungee {
+        width: 50%;
+        height: 50%;
+    }
+
+    .text-left, .text-right {
+        width: 45%;
+        padding-top: 0;
+    }
+
+    .heading-left, .heading-right {
+        font-size: 250%;
+    }
 
 }
 
