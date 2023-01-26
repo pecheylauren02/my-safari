@@ -825,13 +825,25 @@ button {
         float: right;
     } */
 
-    .image-bungee, .image-gamedrive, .image-rafting, .image-cruise {
-        width: 55%;
-        height: 90%;
+    .act-cont-left, .act-cont-right {
+        height: 1000px;
+        width: 100%;
+        font-size: 90%;
+    }
+    
+    .image-rafting, .image-cruise, .image-gamedrive, .image-bungee {
+        width: 50%;
+        height: 50%;
+        margin-top: 20%;
     }
 
     .text-left, .text-right {
         width: 45%;
+        padding-top: 0;
+    }
+
+    .heading-left, .heading-right {
+        font-size: 250%;
     }
 
 
@@ -901,25 +913,6 @@ button {
         height: 250px;
     }
 
-    .act-cont-left, .act-cont-right {
-        height: 1000px;
-        width: 100%;
-    }
-    
-    .image-rafting, .image-cruise, .image-gamedrive, .image-bungee {
-        width: 50%;
-        height: 50%;
-    }
-
-    .text-left, .text-right {
-        width: 45%;
-        padding-top: 0;
-    }
-
-    .heading-left, .heading-right {
-        font-size: 250%;
-    }
-
 }
 
 @media screen and (max-width: 750px) {
@@ -958,6 +951,31 @@ button {
 
     #left-about, #right-about, #center-about {
         width: 100%;
+    }
+
+    .act-cont-left, .act-cont-right {
+        height: 1500px;
+        width: 100%;
+        font-size: 100%;
+    }
+    
+    .image-rafting, .image-cruise, .image-gamedrive, .image-bungee {
+        width: 100%;
+        height: 500px;
+        margin-top: 0;
+        border-radius: 10%;
+    }
+
+    .text-left, .text-right {
+        width: 80%;
+    }
+
+    .text-right {
+        margin-right: 10%;
+    }
+
+    .text-left {
+        margin-left: 10%;
     }
 }
 
