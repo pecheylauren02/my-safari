@@ -315,9 +315,9 @@ footer {
     left: 0;
     bottom: 0;
     background: #111;
-    height: 200px;
+    height: 250px;
     width: 100%;
-    padding-top: 30px;
+    padding: 10px 0px;
     text-align: center;
 }
 
@@ -338,13 +338,17 @@ footer {
     color: #FE6B00;
 }
 
+.footer-content p {
+    color: #04AA6D;
+}
+
 .contact {
     list-style-type: none;
     color: #FFFFFF;
     max-width: 500px;
     margin: 12px auto;
     line-height: 30px;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: 400;
 }
 
@@ -353,7 +357,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.2rem 0 3rem 0;
+    margin: 0;
 }
 
 .social-links li {
@@ -371,21 +375,6 @@ footer {
 .social-links i:hover {
     color: #FFFFFF;
 }
-
-.copyright-content {
-    float: left;
-}
-
-.copyright-content p {
-    color: #FFFFFF;
-    float: center;
-    font-size: 15px;
-    text-transform: capitalize;
-}
-
-/* Testing flip over image */
-
-
 
 /* Accommodation page help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ */
 #luxury-section {
@@ -780,50 +769,6 @@ button {
     .left-about-heading, .right-about-heading, .center-about-heading {
         text-align: center;
     }
- /*
-    .image-gamedrive {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center-top;
-        border-radius: 0% 15% 15% 0%;
-        background: url('../images/gamedrive.jpg') no-repeat center center;
-        height: 80%;
-        width: 55%;
-        float: left;
-    }
-    
-    .image-rafting {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center-top;
-        border-radius: 15% 0% 0% 15%;
-        background: url('../images/rafting.jpg') no-repeat center center;
-        height: 80%;
-        width: 55%;
-        float: right;
-    }
-    
-    .image-bungee {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center-top;
-        border-radius: 0% 15% 15% 0%;
-        background: url('../images/bungee_jumping_1.jpg') no-repeat center center;
-        height: 80%;
-        width: 55%;
-        float: left;
-    }
-    
-    .image-cruise {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center-top;
-        border-radius: 15% 0% 0% 15%;
-        background: url('../images/cruise.png') no-repeat center center;
-        height: 80%;
-        width: 55%;
-        float: right;
-    } */
 
     .act-cont-left, .act-cont-right {
         height: 1000px;
@@ -876,10 +821,9 @@ button {
     }
 
     .welcome-col {
-        width: 100%;
+        width: 90%;
         text-align: left;
-        padding-top: 0;
-        padding-left: 10px;
+        padding-left: 5%;
     }
 
     .welcome-vid {
