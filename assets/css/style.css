@@ -673,13 +673,16 @@ button {
 @media screen and (max-width: 1385px) {
     #menu-nav {
         font-size: 90%;
-    } 
+    }
 
     #safari-logo {
         font-size: 200%;
     }
 
-    .hero-about, .hero-activities, .hero-room, .hero-enquiries {
+    .hero-about,
+    .hero-activities,
+    .hero-room,
+    .hero-enquiries {
         height: 400px;
     }
 
@@ -694,7 +697,7 @@ button {
         padding-top: 0;
         padding-left: 10px;
     }
-    
+
     .welcome-vid {
         width: 65%;
         float: right;
@@ -718,17 +721,20 @@ button {
         margin: 0 auto;
     }
 
-    .left-reasons-heading, .right-reasons-heading {
+    .left-reasons-heading,
+    .right-reasons-heading {
         width: 100%;
     }
 
-    .left-reasons-heading h2, .right-reasons-heading h2 {
+    .left-reasons-heading h2,
+    .right-reasons-heading h2 {
         width: 100%;
         text-align: center;
         text-decoration: underline #FE6B00;
     }
 
-    .left-reasons-heading p, .right-reasons-heading p {
+    .left-reasons-heading p,
+    .right-reasons-heading p {
         text-align: center;
         padding: 0 20px;
     }
@@ -738,10 +744,46 @@ button {
     }
 }
 
+@media screen and (max-width: 1204px) {
+    
+    .hero-caption {
+        top: 60%;
+        left: 40%;
+    }
+    #luxury-section, #lodge-section, #tent-section {
+        width: 100%;
+        height: 1600px;
+        margin: 0 auto;
+    }
+
+    #main-reasons-heading {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 50%;
+        float: left;
+        padding: 0;
+    }
+    
+    #center-about {
+        clear: both;
+        width: 50%;
+        float: center;
+        padding: 0;
+    }
+
+
+}
+
 
 /* For medium screen sizes from 950px wide and below */
 @media screen and (max-width: 961px) {
-    h1, h2, p {
+
+    h1,
+    h2,
+    p {
         font-size: 100%;
     }
 
@@ -767,7 +809,7 @@ button {
         padding-top: 0;
         padding-left: 10px;
     }
-    
+
     .welcome-vid {
         width: 100%;
         display: block;
@@ -780,9 +822,17 @@ button {
         width: 140px;
     }
 
-    .left-reasons-heading h2, .right-reasons-heading h2 {
+    .left-reasons-heading h2,
+    .right-reasons-heading h2 {
         text-decoration: none;
     }
+
+    #circular-container, #pres-suite, #delx-room, #honeymoon-suite, #nyati-lodge, #nzou-lodge, #ingwe-lodge, #tent-1, #tent-2, #tent-3 {
+        width: 250px;
+        height: 250px;
+    }
+
+
 }
 
 @media screen and (max-width: 700px) {
@@ -813,18 +863,17 @@ button {
         border-right: none;
     }
 }
- 
 
-/* https://www.w3schools.com/howto/howto_css_navbar_icon.asp */ 
+
+/* https://www.w3schools.com/howto/howto_css_navbar_icon.asp */
 @media screen and (max-width: 500px) {
     #menu-nav a {
         float: none;
         display: block;
         text-align: left;
     }
-    
+
     #safari-logo {
         float: none;
     }
 }
-    
