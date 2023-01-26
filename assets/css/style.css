@@ -108,6 +108,7 @@ p {
 .active {
     color: #FE6B00;
     border: 1px solid #FE6B00;
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -478,27 +479,29 @@ footer {
 .left-about-heading {
     width: 70%;
     float: center;
-    text-align: left;
+    text-align: center;
     margin: 5% 20% 5% 20%;
 }
 
 .right-about-heading {
     width: 70%;
     float: center;
-    text-align: left;
+    text-align: center;
     margin: 5% 20% 5% 20%;
 }
 
 .center-about-heading {
     width: 70%;
     float: center;
-    text-align: left;
+    text-align: center;
     margin: 5% 20% 5% 20%;
 }
 
 .room-cost {
     color: #04AA6D;
     text-transform: capitalize;
+    border-top: 1px solid #04AA6D;
+    padding-top: 5%;
 }
 
 /* Activities page */
@@ -637,7 +640,7 @@ button {
     text-decoration: none;
     margin: 5px 3px;
     cursor: pointer;
-    width: 20%;
+    width: 50%;
     border-radius: 5px;
 }
 
@@ -668,6 +671,13 @@ button {
 
     #safari-logo {
         font-size: 200%;
+    }
+
+    .hero-about,
+    .hero-activities,
+    .hero-room,
+    .hero-enquiries {
+        height: 500px;
     }
 
     .welcome-container {
@@ -889,7 +899,7 @@ button {
     #luxury-section,
     #lodge-section,
     #tent-section {
-        height: 2000px;
+        height: 2150px;
     }
 
     #left-about, #right-about, #center-about {
@@ -951,5 +961,11 @@ button {
 
     #safari-logo {
         float: none;
+    }
+
+    #luxury-section,
+    #lodge-section,
+    #tent-section {
+        height: 2350px;
     }
 }
