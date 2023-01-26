@@ -700,6 +700,7 @@ button {
     .hero-caption {
         top: 60%;
         left: 40%;
+        font-size: 80%;
     }
 
     .welcome-container {
@@ -769,7 +770,7 @@ button {
     }
 
     .act-cont-left, .act-cont-right {
-        height: 1000px;
+        height: 900px;
         width: 100%;
         font-size: 90%;
     }
