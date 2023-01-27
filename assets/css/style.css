@@ -75,7 +75,7 @@ p {
 /* Navigation links https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
 
 #menu-nav {
-    font-size: 100%;
+    font-size: 120%;
     letter-spacing: 3px;
     opacity: 95%;
     width: 100%;
@@ -657,20 +657,36 @@ button {
     border-radius: 5px;
 }
 
+#thankyou-section {
+    height: 100%;
+    background: #ef9a5b;
+}
+
 .thankyou-container {
     font-size: 250%;
     text-align: center;
     width: 50%;
     margin: auto;
     margin-top: 10%;
-    padding: 10%;
+    padding: 15%;
+}
+
+.thankyou-container > h1 {
+    color: #000;
+    position: relative;
+    text-decoration: underline;
 }
 
 .thankyou-container > p {
     font-size: 100%;
+    color: #000;
 }
 
 .thankyou-link {
+    color: #000;
+}
+
+.thankyou-container a:hover {
     color: #FFFFFF;
 }
 
