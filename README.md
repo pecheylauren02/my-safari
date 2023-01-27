@@ -60,7 +60,25 @@ Before designing the website, I reviewed the market by looking at other safari w
 - Navigation and social media links should be easily accessible 
 
 ## User Stories
+- User Story 1: As someone interested in booking a holiday at Sable Safari I want to:
+     - find out general information about the Safari and what they offer
+     - see and listen to media content of what they offer
+     - contact the administration if I have any questions or want to book
+     - navigate easily between pages
 
+- User Story 2:
+
+- User Story 3:
+
+
+## Design, Layout and Structure 
+I chose to use a bright, bold design using safari-themed colours like green, shades of orange, white and black. I incorporated lots of visual content, such as eye-catching images.
+
+### Wireframes
+
+I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
+
+### Structure
 ## Features
 
 ### Existing Features
