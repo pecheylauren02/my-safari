@@ -15,7 +15,7 @@
 <body>
     <header>
             <a href="index.html">
-                <h1 id="safari-logo"><i class="fas fa-paw"></i> Sable Safari</h1>
+                <h1 id="safari-logo"><i class="fas fa-paw" aria-label="Paw print for Sable Safari logo"></i> Sable Safari</h1>
             </a>
 
             <!-- Menu Wrapper idea from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
@@ -23,16 +23,20 @@
             <nav>
                 <ul id="menu-nav">
                     <li>
-                        <a href="enquiries.html"><i class="fas fa-question"></i> Enquire</a>
+                        <a href="enquiries.html" aria-label="Visit the Enquire page (opens on same tab)">
+                        <i class="fas fa-question" aria-label="Question mark icon for enquire page"></i> Enquire</a>
                     </li>
                     <li>
-                        <a href="activities.html"><i class="fas fa-hiking"></i> Activities</a>
+                        <a href="activities.html" aria-label="Visit the Activities page (opens on same tab)">
+                        <i class="fas fa-hiking" aria-label="Hiking icon for activities page"></i> Activities</a>
                     </li>
                     <li>
-                        <a href="accommodation.html"><i class="fas fa-campground"></i> Accommodation</a>
+                        <a href="accommodation.html" aria-label="Visit the Accommodation page (opens on same tab)">
+                        <i class="fas fa-campground" aria-label="Tent icon for accommodation page"></i> Accommodation</a>
                     </li>
                     <li>
-                        <a href="index.html" class="active"><i class="fas fa-home"></i> About Us</a>
+                        <a href="index.html" class="active" aria-label="Visit the About Us page (opens on same tab)">
+                        <i class="fas fa-home" aria-label="Home icon for about us page"></i> About Us</a>
                     </li>
                 </ul>
             </nav>
@@ -41,7 +45,7 @@
     </header>
 
     <section>
-        <div class="hero-about">
+        <div class="hero-about" aria-label="A close-up of a lion's face and mane">
             <div class="hero-caption">
                 <h1>
                     Sable Safari
@@ -80,9 +84,9 @@
             </div>
             <div class="welcome-vid">
                 <iframe class="iframe" width="600" height="400" src="https://www.youtube.com/embed/_EKLcgECxrM"
-                    title="YouTube video player" frameborder="0"
+                    title="A YouTube video of Victoria Falls, a national landmark of Zimbabwe" aria-hidden="true" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    allowfullscreen aria-label="Go to our activities page (opens in same tab)"></iframe>
             </div>
         </div>
 
@@ -129,7 +133,8 @@
                     a cozy cabin with your loved one, or a tent for the more adventurous-minded folk, we have it all!
                     Take a look at the rooms we offer by clicking the button below!
                 </p>
-                <a href="accommodation.html" class="find-out-activities">Find out more</a>
+                <a href="accommodation.html" class="find-out-activities" 
+                    aria-label="Go to our accommodation page (opens in same tab)">Find out more</a>
             </div>
             <div class="left-reasons-heading">
                 <h2><i class="fas fa-paw"></i> Safari Game Drives</h2>
@@ -139,7 +144,8 @@
                     breathtaking sunsets, then join us on our incredible game drives at Sable Safari! You are 
                     guaranteed to see giraffe, elephant and impala up-close!
                 </p>
-                <a href="activities.html" class="find-out-activities">Find out more</a>
+                <a href="activities.html" class="find-out-activities"
+                aria-label="Go to our activities page (opens in same tab)">Find out more</a>
             </div>
         </div>
         <div id="right-reasons">
@@ -151,7 +157,8 @@
                     the the famous Zambezi River rapids! The best part is, we'll take pictures and videos so
                     you can show them off to your friends back home! You're going to love it!
                 </p>
-                <a href="activities.html" class="find-out-activities">Find out more</a>
+                <a href="activities.html" class="find-out-activities"
+                aria-label="Go to our activities page (opens in same tab)">Find out more</a>
             </div>
             <div class="right-reasons-heading">
                 <h2><i class="fas fa-ship"></i> Sunset Boat Cruises</h2>
@@ -161,16 +168,11 @@
                     and a sunset cruise, look no further than our beautiful boat cruise experience.
                     Meals and drinks included! What better way to spend your evening?
                 </p>
-                <a href="activities.html" class="find-out-activities">Find out more</a>
+                <a href="activities.html" class="find-out-activities"
+                aria-label="Go to our activities page (opens in same tab)">Find out more</a>
             </div>
         </div>
     </section>
-
-    <section>
-        <div class="gallery-homepage">
-        </div>
-    </section>
-
 
     <footer>
         <div class="footer-content">
@@ -210,7 +212,7 @@
                             class="fab fa-linkedin"></i></a>
                 </li>
             </ul>
-            <p>Copyright <i class="far fa-copyright"></i> 2023 Sable Safari</p>
+            <p>Copyright <i class="far fa-copyright" aria-label="Copyright icon"></i> 2023 Sable Safari</p>
         </div>
         
     </footer>
