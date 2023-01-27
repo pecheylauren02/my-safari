@@ -1,12 +1,65 @@
-# Sable Safari
+# Sable Safari Website
 
-The Sable Safari website is a site for tourists and local travellers looking to visit Zimbabwe and book an exciting safari getaway. Sable Safari offers accommodation and activities to meet the needs of all types of traveller: from adrenaline-junkies to wildlife enthusiasts, and even people who simply want to relax and enjoy the african sunset. 
+- Add image here of three screens 
 
-Users will be able to find general information about the Safari getaway, as well as the various activities they can indulge in upon arrival. They can also look at the types of rooms they'd like to stay in, and make enquiries through the enquiry form page. 
+#### By Lauren Pechey
+[Click here to view the live web application](https://index.html)
 
-### Target Audience
+#### HELLO EVERYONE!
 
-Sable Safari is designed for users who are interested in booking a safari holiday in Zimbabwe, and offers easy-to-navigate pages to allow travellers to get a feel of what is offered. 
+This is the documentation for a new and upcoming Safari website, called Sable Safari! It has been built using HTML5 & CSS3 as an educational Project offered as part of Code Institute’s Diploma in Full Stack Software Development.
+
+## Table of Contents
+
+1. [Project Development and Planning](#project-development--planning)
+    * [Project Goals](#project-goals)
+        * [Project Purpose](#project-purpose)
+        * [Target Audience](#target-audience)
+    * [Research](#research)
+        * [Market Review](#market-review)
+        * [Key Takeaways](#key-takeaways-from-market-review)
+    * [User Stories](#user-stories)
+    * [Design, Layout & Structure](#design-layout--structure)
+        * [Wireframes](#wireframes)
+        * [Structure](#structure)
+        * [Colour](#colour)
+        * [Fonts](#fonts)
+2. [Technologies Used](#technologies-used)
+    * [Languages](#languages)
+    * [Tools](#tools)
+
+## Project Development and Planning 
+
+The planning and development of this website was done using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton and Surface. With these principles in mind, the aim was to ensure an easy-to-use, responsive and eye-catching website to meet the goals and needs of potential clients. 
+
+### Project Goals 
+
+- #### Project Purpose
+
+     - The Sable Safari website is a site for tourists and local travellers looking to visit Zimbabwe and book an exciting safari getaway. Sable Safari offers accommodation and activities to meet the needs of all types of traveller: from adrenaline-junkies to wildlife enthusiasts, and even people who simply want to relax and enjoy the african sunset. 
+
+     - Users will be able to find general information about the Safari getaway, as well as the various activities they can indulge in upon arrival. They can also look at the types of rooms they'd like to stay in, and make enquiries through the enquiry form page. 
+
+- #### Target Audience
+
+     - Sable Safari is designed for users who are interested in booking a safari holiday in Zimbabwe, and offers easy-to-navigate pages to allow travellers to get a feel of what is offered. 
+
+## Research 
+
+### Market Review 
+
+Before designing the website, I reviewed the market by looking at other safari websites based in Zimbabwe and South Africa, in order to get a feel of how they presented themselves, which content and features they offered, and the design choices they made in terms of colour palette. I also reviewed what appeared to work well for the user and what needed improvements. 
+
+[Victoria Falls Safari Lodge](https://victoria-falls-safari-lodge.com/) | [Zambezi Drift](https://www.zambezidrift.com/about-us/) | [Ilala Lodge](https://www.ilalalodge.com/) | [African Bush Camps](https://africanbushcamps.com/camps/bumi-hills-safari-lodge/) | [Bush Lovers Safari](https://www.bushloverssafari.co.za/)
+
+### Key Takeaways from Market Review 
+- The website should be eye-catching, to make travellers excited about booking with their chosen Safari
+- The Website should be clean, simple and easy to navigate
+- Hero images should be vibrant and relevant to the safari theme
+- Images and video content are key features to advertise the safari well
+- Navigation and social media links should be easily accessible 
+
+## User Stories
 
 ## Features
 
