@@ -13,48 +13,55 @@
 </head>
 
 <body>
+
+    <!-- Header with logo and menu navigation -->
     <header>
         <a href="index.html">
-            <h1 id="safari-logo"><i class="fas fa-paw"></i> Sable Safari <i class="fas fa-paw"></i></h1>
+            <h1 id="safari-logo"><i class="fas fa-paw" aria-label="Paw print for Sable Safari logo"></i> Sable Safari
+            </h1>
         </a>
+
+        <!-- Hamburger menu idea from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
 
         <nav>
             <ul id="menu-nav">
                 <li>
-                    <a href="enquiries.html"><i class="fas fa-question"></i> Enquire</a>
+                    <a href="enquiries.html" aria-label="Visit the Enquire page (opens on same tab)">
+                        <i class="fas fa-question" aria-label="Question mark icon for enquire page"></i> Enquire</a>
                 </li>
                 <li>
-                    <a href="activities.html"><i class="fas fa-hiking"></i> Activities</a>
+                    <a href="activities.html" aria-label="Visit the Activities page (opens on same tab)">
+                        <i class="fas fa-hiking" aria-label="Hiking icon for activities page"></i> Activities</a>
                 </li>
                 <li>
-                    <a href="accommodation.html" class="active"><i class="fas fa-campground"></i> Accommodation</a>
+                    <a href="accommodation.html" aria-label="Visit the Accommodation page (opens on same tab)">
+                        <i class="fas fa-campground" aria-label="Tent icon for accommodation page"></i>
+                        Accommodation</a>
                 </li>
                 <li>
-                    <a href="index.html"><i class="fas fa-home"></i> About Us</a>
+                    <a href="index.html" class="active" aria-label="Visit the About Us page (opens on same tab)">
+                        <i class="fas fa-home" aria-label="Home icon for about us page"></i> About Us</a>
                 </li>
             </ul>
         </nav>
-
-    <!--  Hero Image  -->
     </header>
 
     <section>
-        <div class="hero-room">
+        <div class="hero-room" aria-label="Left side-view of an elephant's face">
             <div class="hero-caption">
                 <h1>Our Rooms</h1>
                 <hr>
                 <p>Take a look at where you can stay at Sable Safari</p>
             </div>
-       </div>
+        </div>
     </section>
 
-    <!-- Rooms section -->
-
+    <!-- Luxury rooms section -->
     <section id="luxury-section">
         <h2 id="main-reasons-heading">Luxury Rooms</h2>
         <div id="left-about">
             <div id="circular-container">
-                <div id="pres-suite"></div>
+                <div id="pres-suite" aria-label="A presidential suite"></div>
             </div>
             <div class="left-about-heading">
                 <h3>Presidential Suite</h3>
@@ -68,27 +75,27 @@
         </div>
         <div id="right-about">
             <div id="circular-container">
-                <div id="delx-room"></div>
+                <div id="delx-room" aria-label="A deluxe room with a king size bed"></div>
             </div>
             <div class="right-about-heading">
                 <h3>Deluxe Room</h3>
                 <p>
                     For the budget-friendly and nature-loving folk, we offer tented Campsites
                     where you can stay in a ready-made tent filled with your basic needs: a comfy bed,
-                    fire-lantern and mosquito-nets to keep you safe from those pesky bugs! 
+                    fire-lantern and mosquito-nets to keep you safe from those pesky bugs!
                 </p>
                 <h3 class="room-cost">$100/night</h3>
             </div>
         </div>
         <div id="center-about">
             <div id="circular-container">
-                <div id="honeymoon-suite"></div>
+                <div id="honeymoon-suite" aria-label="A honeymoon suite with flowers and wine"></div>
             </div>
             <div class="center-about-heading">
                 <h3>Honeymoon Suite</h3>
                 <p>
                     Our Safari Lodges give you a chance to experience the best of both worlds! Some
-                    luxury facilities with an authentic African experience in the wild bush. Located right at 
+                    luxury facilities with an authentic African experience in the wild bush. Located right at
                     the heart of the Safari, so you can experience close encounters
                     with wildlife from your doorstep!
                 </p>
@@ -97,12 +104,12 @@
         </div>
     </section>
 
-
+    <!-- Safari Lodge rooms section -->
     <section id="lodge-section">
         <h2 id="main-reasons-heading">Safari Lodges</h2>
         <div id="left-about">
             <div id="circular-container">
-                <div id="nyati-lodge"></div>
+                <div id="nyati-lodge" aria-label="A large wooden cabin with a view of the outside bush"></div>
             </div>
             <div class="left-about-heading">
                 <h3>Nyati Lodge</h3>
@@ -116,27 +123,27 @@
         </div>
         <div id="right-about">
             <div id="circular-container">
-                <div id="nzou-lodge"></div>
+                <div id="nzou-lodge" aria-label="A wooden cabin with two twin beds"></div>
             </div>
             <div class="right-about-heading">
                 <h3>Nzou Lodge</h3>
                 <p>
                     For the budget-friendly and nature-loving folk, we offer tented Campsites
                     where you can stay in a ready-made tent filled with your basic needs: a comfy bed,
-                    fire-lantern and mosquito-nets to keep you safe from those pesky bugs! 
+                    fire-lantern and mosquito-nets to keep you safe from those pesky bugs!
                 </p>
                 <h3 class="room-cost">$50/night</h3>
             </div>
         </div>
         <div id="center-about">
             <div id="circular-container">
-                <div id="ingwe-lodge"></div>
+                <div id="ingwe-lodge" aria-label="A wooden cabin with one queen beds"></div>
             </div>
             <div class="center-about-heading">
                 <h3>Ingwe Lodge</h3>
                 <p>
                     Our Safari Lodges give you a chance to experience the best of both worlds! Some
-                    luxury facilities with an authentic African experience in the wild bush. Our lodges 
+                    luxury facilities with an authentic African experience in the wild bush. Our lodges
                     are located right at the heart of the Safari, so you can experience close encounters
                     with wildlife from your doorstep!
                 </p>
@@ -145,11 +152,12 @@
         </div>
     </section>
 
+    <!-- Tents section -->
     <section id="tent-section">
         <h2 id="main-reasons-heading">Tented Campsites</h2>
         <div id="left-about">
             <div id="circular-container">
-                <div id="tent-1"></div>
+                <div id="tent-1" aria-label="A large white tent"></div>
             </div>
             <div class="left-about-heading">
                 <h3>Tent 1</h3>
@@ -163,27 +171,27 @@
         </div>
         <div id="right-about">
             <div id="circular-container">
-                <div id="tent-2"></div>
+                <div id="tent-2" aria-label="Two people sitting outside a tent and eating"></div>
             </div>
             <div class="right-about-heading">
-                <h3>Tent 3</h3>
+                <h3>Tent 2</h3>
                 <p>
                     For the budget-friendly and nature-loving folk, we offer tented Campsites
                     where you can stay in a ready-made tent filled with your basic needs: a comfy bed,
-                    fire-lantern and mosquito-nets to keep you safe from those pesky bugs! 
+                    fire-lantern and mosquito-nets to keep you safe from those pesky bugs!
                 </p>
                 <h3 class="room-cost">$20/night</h3>
             </div>
         </div>
         <div id="center-about">
             <div id="circular-container">
-                <div id="tent-3"></div>
+                <div id="tent-3" aria-label="A large brown tent"></div>
             </div>
             <div class="center-about-heading">
-                <h3>Tent 2</h3>
+                <h3>Tent 3</h3>
                 <p>
                     Our Safari Lodges give you a chance to experience the best of both worlds! Some
-                    luxury facilities with an authentic African experience in the wild bush. Our lodges 
+                    luxury facilities with an authentic African experience in the wild bush. Our lodges
                     are located right at the heart of the Safari, so you can experience close encounters
                     with wildlife from your doorstep!
                 </p>
@@ -191,8 +199,8 @@
             </div>
         </div>
     </section>
-    
-    
+
+    <!-- Footer and Copyright section -->
     <footer>
         <div class="footer-content">
             <h3>Contact us</h3>
@@ -233,12 +241,10 @@
             </ul>
             <p>Copyright <i class="far fa-copyright"></i> 2023 Sable Safari</p>
         </div>
-        
+
     </footer>
 
-
-
-    <!-- font awesome script and link here -->
+    <!-- Font awesome script and link here -->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 
 </body>
