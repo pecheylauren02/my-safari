@@ -182,29 +182,30 @@ p {
 /* welcome section */
 
 .welcome-container {
-    height: 800px;
+    height: 120%;
     width: 100%;
     background-color: #111;
+    
 }
 
 .welcome-col {
-    width: 40%;
-    text-align: left;
-    float: left;
-    padding-left: 5%;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 120%;
+    
 }
 
 .welcome-vid {
-    float: right;
-    width: 50%;
     display: block;
-    padding: 5% 0%;
+    text-align: center;
+    padding: 0;
 }
 
 .iframe {
     border: 5px solid #04AA6D;
-    height: 500px;
     width: 750px;
+    height: 500px;
 }
 
 .welcome-title {
@@ -677,13 +678,15 @@ button {
 */
 
 @media screen and (max-width: 1900px) {
+    
+    
     .gallery-image {
         height: 220px;
         width: 220px;
     }
 
 
-@media screen and (max-width: 1385px) {
+@media screen and (max-width: 1425px) {
     #menu-nav {
         font-size: 90%;
     }
@@ -697,6 +700,10 @@ button {
     .hero-room,
     .hero-enquiries {
         height: 500px;
+    }
+
+    .welcome-container {
+        height: 130%;
     }
 
     .gallery-col img {
@@ -718,21 +725,11 @@ button {
     }
 
     .welcome-container {
-        height: 110%;
+        height: 120%;
     }
 
     .welcome-col {
         width: 80%;
-        text-align: center;
-        padding: 0;
-        margin-left: 10%;
-    }
-
-    .welcome-vid {
-        width: 100%;
-        display: block;
-        text-align: center;
-        padding: 0;
     }
 
     .iframe {
@@ -742,7 +739,14 @@ button {
 
     .gallery-col {
         margin-left: 1%;
+        padding: 0;
     }
+
+    .gallery-col img {
+        height: 130px;
+        width: 130px;
+    }
+
 
     #reasons-section {
         width: 100%;
@@ -831,10 +835,13 @@ button {
         font-size: 85%;
     }
 
+    .welcome-container {
+        height: 120%;
+    }
+
     .welcome-col {
         width: 90%;
         text-align: left;
-        padding-left: 5%;
     }
 
     .welcome-vid {
@@ -842,6 +849,11 @@ button {
         display: block;
         text-align: center;
         padding: 0;
+    }
+
+    .gallery-col img {
+        height: 110px;
+        width: 110px;
     }
 
     #reasons-section {
