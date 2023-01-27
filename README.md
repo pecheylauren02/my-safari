@@ -3,7 +3,7 @@
 - Add image here of three screens 
 
 #### By Lauren Pechey
-[Click here to view the live web application](https://index.html)
+[Click here to view the live web application](https://pecheylauren02.github.io/my-safari/index.html)
 
 #### HELLO EVERYONE!
 
@@ -66,19 +66,66 @@ Before designing the website, I reviewed the market by looking at other safari w
      - contact the administration if I have any questions or want to book
      - navigate easily between pages
 
-- User Story 2:
+- User Story 2: As a booking company on behalf of travellers I want to: 
 
 - User Story 3:
 
+These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing scope issues at a later stage after the coding process. 
+
 
 ## Design, Layout and Structure 
-I chose to use a bright, bold design using safari-themed colours like green, shades of orange, white and black. I incorporated lots of visual content, such as eye-catching images.
+I incorporated lots of visual content, such as eye-catching images.
 
 ### Wireframes
 
 I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
 
 ### Structure
+
+### Colour 
+
+I chose to use a bright, bold design using safari-themed colours sunset shades of orange, white and black for effective contrasting and green to differentiate buttons, prices and copyright information from other content.
+![Colour Palette](assets/images/readme_screenshots/color_palette.png)
+
+### Font
+
+My choice of font was [Libre Baskerville](https://fonts.google.com/?query=baskerville) for all paragraphs and [Libre Baskerville Bold](https://fonts.google.com/specimen/Libre+Baskerville?query=baskerville) for all headings. Both font choices were imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Sans Serif. I chose these fonts for my website because they both have an elegant, professional and welcoming finish which is best suited for a website aiming to attract its users. The boldness also displayed a strong legibility as headings over images, text and videos. 
+
+### Imagery
+In the top, left corner of each page, a Safari logo with paw icons on either side can be seen. Clicking it will direct the user back to the "About Us" page.
+
+image here <img>
+
+To illustrate the "About Us" Page, 
+
+## Technologies Used 
+
+This website used a combination of two different languages, and some web tools for the initial planning. A list of those included in the project can be seen as follows: 
+
+### Languages 
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Tools 
+- [Git](https://git-scm.com/)
+    - Git was used for version control via GitPod, by using the terminal to Git and Push to GitHub.
+- [GitHub](https://github.com/)
+    - GitHub was used to store the project code after being created in GitPod/Git.
+- [Gitpod](https://www.gitpod.io/)
+    - Gitpod was used to create, edit and preview the project's code.
+- [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create wireframes during the initial design process.
+- [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to select and import the fonts to the project (Libre Baskerville and Libre Baskerville Bold).
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome was used to add icons to the site to help with UX and to add more character to the project visually.
+- [Sirv](https://sirv.com/)
+     - Sirv was used to organise images for the website, as well as optimise size and find the image source urls. 
+- [I Love Img](https://www.iloveimg.com/resize-image)
+     - This was used to optimise images by size.
+- [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
+    - This was used to create the colour pallette as well as ideas for initial design.
+
 ## Features
 
 ### Existing Features
@@ -131,54 +178,6 @@ I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the
 
 The website was designed to be both eye-catching and easy-to-navigate, to provide the users with an informative, exciting and simple outline of what they can expect if they decide to visit Sable Safari. The simplicity of the website makes it easy for adults, teenagers and even children to explore what is offered and what they can participate in upon arrival.
 
-### User Stories
-
-The User Stories were divided into four categories: "Must Have", "Should Have", "Could Have" and "Won't Have". All categories of the user stories were included in the final deployment of the Sable Safari website. 
-
-- Include screenshot of user story template used
-
-### New User Goals
-
-- Include table of user stories here
-
-## Technology 
-This website used a combination of two different languages, and some web tools for the initial planning. A list of those included in the project can be seen as follows: 
-
-- Languages:
-     - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-     - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-- Tools 
-     - [Balsamiq](https://balsamiq.com/)
-          - Balsamiq was used to create wireframes during the initial design process.
-     - [Git](https://git-scm.com/)
-          - Git was used along with the [Gitpod](https://www.gitpod.io/) terminal in order to commit and push work into the global staging branch of the app on GitHub.
-     - [GitHub:](https://github.com/)
-          - GitHub was used to save versions of the code for the entire project after each branch was pushed from Git.
-
-## Initial MVP idea
-Describe here
-
-### Actual idea and content
-
-Describe here
-
-## Design
-
-### Color Scheme
-Describe here
-Image here of color palette
-
-### Typography 
-
-
-### Imagery
-In the top, left corner of each page, a Safari logo with paw icons on either side can be seen. Clicking it will direct the user back to the "About Us" page.
-
-image here
-
-To illustrate the "About Us" Page, 
-
 ## Testing
 
 Description here
@@ -197,9 +196,36 @@ Description here
 
 ## Deployment
 
-- Description here
 
-Live link here
+### GitHub Pages 
+
+The site was deployed to GitHub Pages, using the following steps:
+1. In the GitHub repository, navigate to the Settings tab.
+2. From the menu on the left, select 'Pages'.
+3. From the source option, select Branch: main.
+4. Click 'Save'.
+5. A live link will be displayed when published successfully.
+
+[You can find the live link here](https://pecheylauren02.github.io/my-safari/)
+
+### Forking the GitHub Repsoitory
+
+To fork the repository you can follow these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+### Cloning the GitHub Repository
+
+To clone the repository to use locally, you can follow these steps:
+
+1. Navigate to the GitHub Repository you want to clone
+2. Click on the code drop down button
+3. Click on HTTPS
+4. Copy the repository link to the clipboard
+5. Open your IDE of choice (git must be installed for the next steps)
+6. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned locally for your use. 
 
 ## Credits
 
@@ -209,12 +235,15 @@ Live link here
 
 ### Media
 
+- Video content
+     - 
+
 - Credits here
 
 ### Acknowledgements 
 
-- Mentor
-- Tutor Support
+- My mentor, Rohit Sharma, for all of his advice and support throughout the project.
+- Tutor Support at [Code Institute](https://codeinstitute.net/) for their teaching and support on important coding issues. 
 
 
 
