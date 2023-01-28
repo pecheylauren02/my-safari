@@ -483,47 +483,32 @@ footer {
     padding-top: 5%;
 }
 
-.image-gamedrive {
+.activity-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center-top;
     border-radius: 0% 15% 15% 0%;
-    background: url('../images/activities_images/gamedrive.jpg') no-repeat center center;
     height: 80%;
     width: 55%;
+}
+
+.image-gamedrive {
+    background: url('../images/activities_images/gamedrive.jpg') no-repeat center center;
     float: left;
 }
 
 .image-rafting {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center-top;
-    border-radius: 15% 0% 0% 15%;
     background: url('../images/activities_images/rafting.jpg') no-repeat center center;
-    height: 80%;
-    width: 55%;
     float: right;
 }
 
 .image-bungee {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center-top;
-    border-radius: 0% 15% 15% 0%;
     background: url('../images/activities_images/bungee_jumping_1.jpg') no-repeat center center;
-    height: 80%;
-    width: 55%;
     float: left;
 }
 
 .image-cruise {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center-top;
-    border-radius: 15% 0% 0% 15%;
     background: url('../images/activities_images/cruise.png') no-repeat center center;
-    height: 80%;
-    width: 55%;
     float: right;
 }
 
