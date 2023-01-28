@@ -203,7 +203,7 @@ This website used a combination of two different languages, and some web tools f
 <img src>
 </details>
 
- ### About Us page
+### About Us page
  
 #### The Welcome section
 
@@ -240,7 +240,6 @@ This website used a combination of two different languages, and some web tools f
 <details><summary>Screenshots</summary>
 <img src>
 </details>
-
 
 ### Accommodation page
 
@@ -286,20 +285,21 @@ This page shows two sections: an easy-to-fill-in enquiry form and some further i
      - It has a "Send" button which is in bright green to match the style of other buttons. The user will be taken to a "Thank You" page provided they fill in the form correctly. 
 - There is also some further information called "Why Sable Safari?" to consolidate what the user has already read throughout the website. 
 
+## Future Features 
+- Video of Sable Safari
+- More interactions
 
-## User Experience
-
-
-
-## Testing
+## Testing and Bugs
 
 Description here
 
 ### Validator Testing
 
-- HTML
-- CSS
-- Accessibility
+#### HTML Validator Testing 
+
+#### CSS Validator Testing
+
+#### Accessibility
 
 ### Bugs
 
