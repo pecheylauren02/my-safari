@@ -113,8 +113,7 @@ p {
 
 /* Hero images */
 
-.hero-about {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/wide_lion.png');
+.hero-image {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -122,6 +121,22 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.hero-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/wide_lion.png');
+}
+
+.hero-room {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/elephant_3.jpg');
+}
+
+.hero-activities {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/giraffe.png');
+}
+
+.hero-enquiries {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/kudu_enquire.jpg');
 }
 
 .hero-caption {
@@ -140,39 +155,6 @@ p {
 
 .hero-caption p {
     font-size: 180%;
-}
-
-.hero-room {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/elephant_3.jpg');
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-activities {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/giraffe.png');
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.hero-enquiries {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/kudu_enquire.jpg');
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 /* Welcome section of About Us page */
@@ -432,75 +414,48 @@ footer {
     margin: 0 auto;
 }
 
-#pres-suite {
-    background: url('../images/accommodation_images/pres_suite.jpg') no-repeat center center;
+.room-image {
     height: 300px;
     border-radius: 50%;
+}
+
+#pres-suite {
+    background: url('../images/accommodation_images/pres_suite.jpg') no-repeat center center;
 }
 
 #delx-room {
     background: url('../images/accommodation_images/exec_suite.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
 #honeymoon-suite {
     background: url('../images/accommodation_images/honeymoon.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
 #nyati-lodge {
     background: url('../images/accommodation_images/lodge1.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
 #ingwe-lodge {
     background: url('../images/accommodation_images/lodge2.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
 #nzou-lodge {
     background: url('../images/accommodation_images/lodge3.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
 #tent-1 {
     background: url('../images/accommodation_images/tent1.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
 #tent-2 {
     background: url('../images/accommodation_images/tent2.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
 #tent-3 {
     background: url('../images/accommodation_images/tent3.jpg') no-repeat center center;
-    height: 300px;
-    border-radius: 50%;
 }
 
-.left-about-heading {
-    width: 70%;
-    float: center;
-    text-align: center;
-    margin: 5% 20% 5% 20%;
-}
-
-.right-about-heading {
-    width: 70%;
-    float: center;
-    text-align: center;
-    margin: 5% 20% 5% 20%;
-}
-
-.center-about-heading {
+.left-about-heading, .right-about-heading, .center-about-heading {
     width: 70%;
     float: center;
     text-align: center;
