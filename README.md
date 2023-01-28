@@ -30,19 +30,26 @@ This is the documentation for a new and upcoming Safari website, called Sable Sa
 
 ## Project Development and Planning 
 
-The planning and development of this website was done using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton and Surface. With these principles in mind, the aim was to ensure an easy-to-use, responsive and eye-catching website to meet the goals and needs of potential clients. 
+The planning and development of this website was done using principles of User Experience (UX) design, which include the five planes of Strategy, Scope, Structure, Skeleton and Surface. With these principles in mind, the aim was to ensure an easy-to-use, responsive and eye-catching website to meet the goals and needs of potential clients interested in booking a Safari holiday.
 
 ### Project Goals 
 
-- #### Project Purpose
+#### Project Purpose
 
-     - The Sable Safari website is a site for tourists and local travellers looking to visit Zimbabwe and book an exciting safari getaway. Sable Safari offers accommodation and activities to meet the needs of all types of traveller: from adrenaline-junkies to wildlife enthusiasts, and even people who simply want to relax and enjoy the african sunset. 
+- The Sable Safari website is a site for tourists and local travellers looking to visit Zimbabwe and book an exciting safari getaway. Sable Safari is a made-up Safari getaway which offers accommodation and activities to meet the needs of all types of travellers: from adrenaline-junkies to wildlife enthusiasts, and even people who simply want to relax and enjoy the African sunset. 
 
-     - Users will be able to find general information about the Safari getaway, as well as the various activities they can indulge in upon arrival. They can also look at the types of rooms they'd like to stay in, and make enquiries through the enquiry form page. 
+- Users will be able to find general information about the Safari getaway, as well as the various activities they can indulge in upon arrival. They can also look at the types of rooms they'd like to stay in, and make enquiries through the enquiry form page. 
 
-- #### Target Audience
+#### Target Audience
 
-     - Sable Safari is designed for users who are interested in booking a safari holiday in Zimbabwe, and offers easy-to-navigate pages to allow travellers to get a feel of what is offered. 
+- Sable Safari is designed for users who are interested in booking a safari holiday in Zimbabwe, and offers easy-to-navigate pages to allow travellers to get a feel of what is offered. 
+- Given it's simplicity, both adults and children have the freedom to scroll through the pages and make a booking. 
+
+#### User Goals 
+- To have a professional, bold and welcoming appearance, to attract travellers who may be interested in booking a Safari holiday. 
+- To share information about what is offered at Sable Safari, including general information, accommodation and activities. 
+- To give users the opportunity to ask questions through a simply enquiry form. 
+- To allow users to navigate between pages with ease, and to keep the design and colour palette fairly consistent. 
 
 ## Research 
 
@@ -74,13 +81,44 @@ These user stories gave me a clear scope for the website and enabled me to stay 
 
 
 ## Design, Layout and Structure 
-I incorporated lots of visual content, such as eye-catching images.
+The design, layout and structure was consistent across all pages for certain elements, such as the colour palette for headings, paragraphs and backgrounds, the design of the navigation bar and footer and the social links. However, the layout of each page was slightly different, to allow users to differentiate between different pages easily. On each page, I incorporated a lot of visual content, such as eye-catching images, bold colours and a video.
 
 ### Wireframes
 
 I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
 
+<details><summary>About Us</summary>
+<details><summary>Accommodation</summary>
+<details><summary>Activities</summary>
+<details><summary>Enquiry</summary>
+
 ### Structure
+
+The structure of this website was informed by the principles of interactive design (IXD), the scope and the user and business goals of Sable Safari. These were all kept in mind to ensure that the website conformed to user's expectations and needs. 
+
+The site is made of a simple, four page structure:
+- About Us
+     - Gives the users a brief introduction to Sable Safari, as well as a video of the infamous Victoria Falls, a summary of reasons to stay there, and some eye-catching images of up-close encounters with wildlife. 
+- Accommodation
+     - Shows the users the different rooms available, including pictures, information and prices. 
+- Activities
+     - Displays the four activities that travellers can engage in when they arrive at Sable Safari, using images side by side with information about each activity.
+- Enquiry
+     - Displays a simple, easy-to-fill-in form for users who have questions about Sable Safari, as well as more information to further attract users into booking. 
+
+There is also a subpage:
+- Thank you
+     - The user will be brought here after submitting the enquiry form correctly. 
+
+The site has a navigation bar which is consistent in design across all four pages, with the full page names (About Us, Accommodation, Activities, Enquiry) showing for desktop screens, and the relevant icons only showing for Ipad/Tablet and mobile screens. The navbar was reduced to icons to prevent it from taking up too much real estate on smaller screens and to give a cleaner appearance overall. The navbar allows users to access any page they need and is useful for both new and returning users. There is also a footer with consistent design across all four pages, to allow users to visit the social media sites of Sable Safari at any time, and to contact them should they wish to book a holiday or ask questions. 
+
+On the About Us page, there is also another method of navigation, through the "Find out more" buttons directly below the "Why Stay With Us?" section. This allows users to immediately visit gain access to further information about either the accommodation or activities offered by Sable Safari. 
+
+The suggested route is ABOUT US > ACCOMMODATION/ACTIVITIES > ENQUIRE
+
+<details><summary>Screenshots</summary>
+<img src>
+</details>
 
 ### Colour 
 
@@ -128,47 +166,72 @@ This website used a combination of two different languages, and some web tools f
 
 ## Features
 
-### Existing Features
+### Whole Site
 
-- Navigation
-     - The navigation section features the name of the Safari identically at the top left-corner of each page, so that the user can immediately identify what the website is about.  
-     - There are also four navigation links identically placed to the right: About Us, Accommodation, Activities and Enquiries, to allow for easy navigation to the different pages of the website. 
-     - The navigation is in a font *describe font here* and a color *color here* that contrasts with the background. 
-     - This section will allow the user to navigate comfortably through each page across all devices, without needing to use the 'back' button to revert to a previous page. 
+#### Navbar and Header
 
-- The Header
-     - The header shows the name of the Safari, using *describe font and color* because *reason for font choice and color*.
-     - The header provides clear information about *describe here*.
+<details><summary>Screenshots</summary>
+<img src>
+</details>
+- The navigation section features the Sable Safari logo identically at the top left-corner of each page, so that the user can immediately identify what the website is about.  
+- There are also four navigation links identically placed to the right: About Us, Accommodation, Activities and Enquiries, to allow for easy navigation to the different pages of the website. 
+- The navbar is fully responsive, and the reduces to icons only for smaller screens like Ipads, tablets and mobiles. 
+- The page that the user is currently on is encircled by an orange border, to make it easy for users to see which page they are on. 
+- The user can easily navigate through each page, without needing to use the 'back' button to revert to a previous page. 
 
-- About Us page
-     - The landing page image
-          - This section includes a slideshow of eye-catching wildlife photography to grab the user's attention and attract them into exploring the website more. 
-          - Each photograph includes a text overlay with enticing descriptions of the Safari experience, to again attract further exploration. 
-    
-    - The "Why Stay With Us?" section
-         - This section gives the user a brief history of Sable Safari, as well as a catchy, brief overview of what is offered at the Safari. 
-         - It then shows the user four reasons to stay at Sable Safari, to encourage them to explore other aspects of the website like accommodation and activities. 
+#### Hero
+<details><summary>Screenshots</summary>
+<img src>
+</details>
+- Each main page displays a hero image of a close-up encounter with a wild animal you would expect to see at Sable Safari.
+- The size of the hero images are large, with a small part of the next container visible to encourage the user to scroll further. 
+- Each hero image has a gradient over it, to improve the legibility of the caption.
+- Each hero image is responsive across all pages and screens, including the hero captions, making it accessible to all users.
 
-- Accommodation page
+#### Footer 
+- The footer section is identical across all four pages, to provide the user with consistency and to allow them to find the Contact Information, regardless of which page they are on. 
+- The footer uses the same colour scheme as the rest of the website for consistency, and is fixed at the bottom of each page. 
+- The footer contains contact information such as Sable Safari's phone number and email address, as well as social links to all of the social media pages, which open in a new tab. 
+- The social links change from a soft orange colour to white when the user hovers over it, to show the user which link they are about to click. 
+- This section will be valuable to the user because it encourages them to stay connected via call, email and social media. 
+- The footer is responsive on all screens. 
+
+<details><summary>Screenshots</summary>
+<img src>
+</details>
+
+ ### About Us page
+ 
+#### The Welcome section
+
+<details><summary>Screenshots</summary>
+<img src>
+</details>
+- 
+
+ #### The "Why Stay With Us?" section
+ <details><summary>Screenshots</summary>
+<img src>
+</details>
+- This section gives the user a brief history of Sable Safari, as well as a catchy, brief overview of what is offered at the Safari. 
+- It then shows the user four reasons to stay at Sable Safari, to encourage them to explore other aspects of the website like accommodation and activities. 
+
+### Accommodation page
+
      - This page welcomes the user with a brief, but enticing description of the accommodation offered. 
      - The user can then scroll to see the three types of accommodation offered. 
      - The layout shows a picture of the first type of accommodation on the left, and information about the room and it's facilities on the right. It then alternates with the second accommodation picture being on the right, with information on the left, and so on. 
      - This layout provides a visually appealing aesthetic and makes it easy for the user to learn more about the variety of accommodation they can stay in. 
      - Each image includes a text overlay with the name and price of each type of accommodation, to allow the user to make a more informed decision on which room to book. 
 
-- Activities page
+### Activities page
      - This page first provides a fun description of what activities are offered by the Safari. 
      - The user will then scroll to see four eye-catching, circular-shaped images of the different activities offered by Sable Safari.
      - Each image has a text overlap of the name of the activity, so the user can easily identify which activity they are interested in most. 
      - When the user hovers/clicks on the circular image, the image will flip over to reveal more information about the desired activity. This allows the user to interact with the website, providing a positive user experience. 
 
-- Enquiries page
+### Enquiries page
 
-- The Footer 
-     - The footer section includes Contact Information, such as the Safari's phone number and email address and physical address, to allow the user to get in touch with the Safari should they have any queries or concerns before booking. 
-     - This section also includes five social media links for the Sable Safari website, so users can further explore what is offered at the Safari. 
-     - This section will be valuable to the user because it encourages them to stay connected via call, email and social media. 
-     - The footer section is identical across all four pages, to provide the user with consistency and to allow them to find the Contact Information, regardless of which page they are on. 
 
 ### Features left to implement
 
