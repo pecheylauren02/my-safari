@@ -12,7 +12,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Fixed bug for blank space https://www.quora.com/Why-do-I-have-random-white-space-appearing-to-the-right-of-the-web-page-outside-of-body-tags */
 body {
     font-family: 'Baskerville', sans-serif;
     font-weight: 400;
@@ -26,7 +25,7 @@ body>footer {
     top: 100vh;
 }
 
-/* headings and logo ideas from CI */
+/* Headings and Paragraph elements */
 
 h1 {
     font-family: Baskerville, sans-serif;
@@ -34,14 +33,6 @@ h1 {
     letter-spacing: 3px;
     color: #ef9a5b;
 }
-
-#safari-logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 2%;
-}
-
-/* General Text elements */
 
 h2 {
     font-family: Baskerville, sans-serif;
@@ -72,7 +63,7 @@ p {
     font-size: 110%;
 }
 
-/* Navigation links https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/, CI or use https://code-boxx.com/simple-css-drop-down-menu/ to edit */
+/* Navbar and Logo */
 
 #menu-nav {
     font-size: 120%;
@@ -91,6 +82,12 @@ p {
 #menu-nav,
 #safari-logo {
     line-height: 100px;
+}
+
+#safari-logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 2%;
 }
 
 #safari-logo i {
@@ -114,8 +111,7 @@ p {
     padding: 10px;
 }
 
-/* Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
- https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+/* Hero images */
 
 .hero-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../images/hero-images/wide_lion.png');
@@ -179,7 +175,7 @@ p {
     position: relative;
 }
 
-/* welcome section */
+/* Welcome section of About Us page */
 
 .welcome-container {
     height: 120%;
@@ -217,7 +213,7 @@ p {
     margin-bottom: 45px;
 }
 
-/* Gallery section */
+/* Gallery section of About Us page */
 
 .gallery-row {
     display: flex;
@@ -241,7 +237,7 @@ p {
     height: 300px;
 }
 
-/* reasons section ideas from CI */
+/* Reasons section from About Us page */
 
 #reasons-section {
     height: 100%;
@@ -323,7 +319,7 @@ hr {
     text-decoration: underline;
 }
 
-/* footer section help from https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ */
+/* Footer section */
 
 footer {
     left: 0;
@@ -390,7 +386,8 @@ footer {
     color: #FFFFFF;
 }
 
-/* Accommodation page help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ */
+/* Accommodation page */
+
 #luxury-section {
     background: #000;
     height: 100%;
@@ -694,22 +691,6 @@ button {
 
 /* For large screen sizes from 1385px wide and below */
 
-/* @media screen and (max-width: 1385px) {
-    #menu-nav {
-        font-size: 90%;
-    } 
-
-    #safari-logo {
-        font-size: 200%;
-    }
-
-    .gallery-col img {
-        height: 180px;
-        width: 180px;
-    }
-}
-*/
-
 @media screen and (max-width: 1900px) {
     
     
@@ -745,6 +726,8 @@ button {
     }
 
 }
+
+/* For desktop screen sizes from 1204px wide and below */
 
 @media screen and (max-width: 1204px) {
 
@@ -847,8 +830,8 @@ button {
 
 }
 
-
 /* For medium screen sizes from 950px wide and below */
+
 @media screen and (max-width: 961px) {
 
     #menu-nav a {
@@ -859,6 +842,24 @@ button {
     #menu-nav ul {
         position: relative;
         z-index: 0;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    .nav-icon {
+        font-size: 200%;
+        margin: 2%;
+        padding: 5%;
+        color: white;
+    }
+
+    .active {
+        border-bottom: 5px solid #FE6B00;
+        border-top: none;
+        border-left: none;
+        border-right: none;
     }
 
     .hero-caption {
@@ -945,6 +946,8 @@ button {
 
 }
 
+/* For ipad/tablet screen sizes 768px and below */
+
 @media screen and (max-width: 768px) {
     
     .hero-about-caption {
@@ -952,21 +955,8 @@ button {
         left: 50%;
     }
 
-    #menu-nav a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
     #safari-logo:hover {
         color: #FFFFFF;
-    }
-
-    .active {
-        border-bottom: 1px solid #FE6B00;
-        border-top: none;
-        border-left: none;
-        border-right: none;
     }
 
     .welcome-container {
@@ -1048,14 +1038,14 @@ button {
     }
 }
 
+/* For mobile screen sizes 500px and below */
 
-/* https://www.w3schools.com/howto/howto_css_navbar_icon.asp */
 @media screen and (max-width: 500px) {
-    #menu-nav a {
+   /* #menu-nav a {
         float: none;
         display: block;
         text-align: left;
-    }
+    } */
 
     #safari-logo {
         float: none;

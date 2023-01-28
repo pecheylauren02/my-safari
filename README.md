@@ -353,6 +353,15 @@ The project will now be cloned locally for your use.
 
 - Credits here
 
+ <!-- Hamburger menu idea from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
+ <!-- https://www.w3schools.com/howto/howto_css_navbar_icon.asp */ -->
+ <!-- Fixed bug for blank space https://www.quora.com/Why-do-I-have-random-white-space-appearing-to-the-right-of-the-web-page-outside-of-body-tags */ -->
+ <!--> Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
+ https://www.w3schools.com/howto/howto_css_images_side_by_side.asp  -->
+ <!-- https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ --> 
+ <!-- help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ >
+
+
 ### Acknowledgements 
 
 - My mentor, Rohit Sharma, for all of his advice and support throughout the project.
