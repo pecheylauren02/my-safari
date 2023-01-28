@@ -632,11 +632,11 @@ button {
 /* For large screen sizes from 1385px wide and below */
 
 @media screen and (max-width: 1900px) {
-    
-    
-    .gallery-image {
-        height: 220px;
-        width: 220px;
+
+    .gallery-col img {
+        object-fit: cover;
+        height: 100%;
+        width: 90%;
     }
 
 
@@ -660,9 +660,14 @@ button {
         height: 130%;
     }
 
+    .gallery-row {
+        width: 100%;
+        height: 100%;
+    }
+
     .gallery-col img {
-        height: 160px;
-        width: 160px;
+        height: 100%;
+        width: 100%;
     }
 
 }
@@ -701,7 +706,6 @@ button {
     .gallery-col img {
         height: 100%;
         width: 100%;
-        object-fit: cover;
     }
 
     #reasons-section {
@@ -828,7 +832,6 @@ button {
     .gallery-col img {
         height: 100%;
         width: 100%;
-        object-fit: cover;
     }
 
     #reasons-section {
@@ -866,9 +869,9 @@ button {
     #nyati-lodge,
     #nzou-lodge,
     #ingwe-lodge,
-    #tent-1,
-    #tent-2,
-    #tent-3 {
+    #tent-one,
+    #tent-two,
+    #tent-three {
         width: 250px;
         height: 250px;
     }
@@ -902,11 +905,16 @@ button {
     }
 
     .welcome-container {
-        height: 120%;
+        height: 140%;
     }
 
     .welcome-col {
         margin: 0 auto;
+    }
+
+    .iframe {
+        width: 80%;
+        object-fit: cover;
     }
 
     .find-out-activities {
@@ -937,6 +945,10 @@ button {
     .left-about-heading, .right-about-heading, .center-about-heading {
         margin: auto;
         padding: 5% 0%;
+    }
+
+    .gallery-col img {
+        width: 95%;
     }
 
     .act-cont-left, .act-cont-right {
