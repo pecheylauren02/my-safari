@@ -432,27 +432,27 @@ footer {
 }
 
 #nyati-lodge {
-    background: url('../images/accommodation_images/lodge1.jpg') no-repeat center center;
+    background: url('../images/accommodation_images/lodge_one.jpg') no-repeat center center;
 }
 
 #ingwe-lodge {
-    background: url('../images/accommodation_images/lodge2.jpg') no-repeat center center;
+    background: url('../images/accommodation_images/lodge_two.jpg') no-repeat center center;
 }
 
 #nzou-lodge {
-    background: url('../images/accommodation_images/lodge3.jpg') no-repeat center center;
+    background: url('../images/accommodation_images/lodge_three.jpg') no-repeat center center;
 }
 
 #tent-1 {
-    background: url('../images/accommodation_images/tent1.jpg') no-repeat center center;
+    background: url('../images/accommodation_images/tent_one.jpg') no-repeat center center;
 }
 
 #tent-2 {
-    background: url('../images/accommodation_images/tent2.jpg') no-repeat center center;
+    background: url('../images/accommodation_images/tent_two.jpg') no-repeat center center;
 }
 
 #tent-3 {
-    background: url('../images/accommodation_images/tent3.jpg') no-repeat center center;
+    background: url('../images/accommodation_images/tent_three.jpg') no-repeat center center;
 }
 
 .left-about-heading, .right-about-heading, .center-about-heading {
@@ -487,7 +487,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center-top;
-    border-radius: 0% 15% 15% 0%;
     height: 80%;
     width: 55%;
 }
@@ -495,21 +494,25 @@ footer {
 .image-gamedrive {
     background: url('../images/activities_images/gamedrive.jpg') no-repeat center center;
     float: left;
+    border-radius: 0% 15% 15% 0%;
 }
 
 .image-rafting {
     background: url('../images/activities_images/rafting.jpg') no-repeat center center;
     float: right;
+    border-radius: 15% 0% 0% 15%;
 }
 
 .image-bungee {
-    background: url('../images/activities_images/bungee_jumping_1.jpg') no-repeat center center;
+    background: url('../images/activities_images/bungee_jumping.jpg') no-repeat center center;
     float: left;
+    border-radius: 0% 15% 15% 0%;
 }
 
 .image-cruise {
     background: url('../images/activities_images/cruise.png') no-repeat center center;
     float: right;
+    border-radius: 15% 0% 0% 15%;
 }
 
 .text-right {
