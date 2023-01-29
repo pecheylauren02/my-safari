@@ -28,11 +28,6 @@ main {
     flex-grow: 1;
   }
 
-body>footer {
-    position: sticky;
-    top: 100vh;
-}
-
 /* Headings and Paragraph elements */
 
 h1 {
