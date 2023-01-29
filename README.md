@@ -437,7 +437,6 @@ The project will now be cloned locally for your use.
 
 ## Credits
 
-
 ### Code
 
 - [Foolish Developer](https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/) helped in styling the footer to be responsive on all screens. 
@@ -449,17 +448,17 @@ The project will now be cloned locally for your use.
 
 #### Images
 - About Us page
-     - Hero image [Pexels website]()
+     - Hero image [Pexels website](https://images.pexels.com/photos/2220336/pexels-photo-2220336.jpeg?auto=compress&cs=tinysrgb&w=1600)
      - Photo Gallery
           - Giraffe Photo [Pexels website](https://images.pexels.com/photos/1382156/pexels-photo-1382156.jpeg?auto=compress&cs=tinysrgb&w=1600)
           - Impala Photo [Pexels website](https://images.pexels.com/photos/1109899/pexels-photo-1109899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
           - Leopard Photo [Pexels website](https://images.pexels.com/photos/46254/leopard-wildcat-big-cat-botswana-46254.jpeg)
-          - Elephant Photo [Pexels website](https://images.pexels.com/photos/1054666/pexels-photo-1054666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Elephant Photo [Pexels website](https://images.pexels.com/photos/13915029/pexels-photo-13915029.jpeg)
           - Lion Photo [Pexels website](https://images.pexels.com/photos/4032590/pexels-photo-4032590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
           - Zebra Photo [Pexels website](https://images.pexels.com/photos/763925/pexels-photo-763925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 
 - Accommodation page
-     - Hero image [Pexels website]()
+     - Hero image [Pexels website](https://images.pexels.com/photos/8223182/pexels-photo-8223182.jpeg?cs=srgb&dl=pexels-nicolette-leonie-villavicencio-8223182.jpg&fm=jpg&_gl=1*30p2v*_ga*ODk0Mzc0MDU1LjE2NzMxODg2NTE.*_ga_8JE65Q40S6*MTY3Mzg4ODIzMi45LjEuMTY3Mzg4OTQ3Mi4wLjAuMA..)
      - Accommodation photos
           - Presidential Suite [Pexels website](https://images.pexels.com/photos/3701434/pexels-photo-3701434.jpeg?auto=compress&cs=tinysrgb&w=1600)
           - Honeymoon Suite [Pexels website](https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
@@ -467,17 +466,17 @@ The project will now be cloned locally for your use.
           - Nyati Lodge [Pexels website](https://images.pexels.com/photos/5784432/pexels-photo-5784432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
           - Nzou Lodge [Pexels website](https://images.pexels.com/photos/5439495/pexels-photo-5439495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
           - Ingwe Lodge [Pexels website](https://images.pexels.com/photos/5439496/pexels-photo-5439496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
-          - Campsite One [Pexels website]()
-          - Campsite Two [Pexels website]()
-          - Campsite Three [Pexels website]()
+          - Campsite One [Pexels website](https://images.pexels.com/photos/4014733/pexels-photo-4014733.jpeg?cs=srgb&dl=pexels-anna-shvets-4014733.jpg&fm=jpg&_gl=1*mpfde3*_ga*ODk0Mzc0MDU1LjE2NzMxODg2NTE.*_ga_8JE65Q40S6*MTY3NDUwNTkyMC4yMC4xLjE2NzQ1MDY1NjkuMC4wLjA.)
+          - Campsite Two [Pexels website](https://images.pexels.com/photos/15008127/pexels-photo-15008127.jpeg?cs=srgb&dl=pexels-lam-ki%C3%AAn-15008127.jpg&fm=jpg&_gl=1*15vd6su*_ga*ODk0Mzc0MDU1LjE2NzMxODg2NTE.*_ga_8JE65Q40S6*MTY3NDUwNTkyMC4yMC4xLjE2NzQ1MDY1NDcuMC4wLjA.)
+          - Campsite Three [Pexels website](https://images.pexels.com/photos/4825726/pexels-photo-4825726.jpeg)
           
 - Activities page
      - Hero image [Pexels website](https://images.pexels.com/photos/39504/giraffe-animal-funny-facial-expression-39504.jpeg?auto=compress&cs=tinysrgb&w=1600)
      - Activities photos
-          - Safari Game Drive Photo [Pexels website]()
-          - Bungee Jumping Photo [Pexels website]()
-          - White Water Rafting Photo [Pexels website]()
-          - Boat Sunset Cruise Photo [Pexels website]()
+          - Safari Game Drive Photo [Pexels website](https://images.pexels.com/photos/13827833/pexels-photo-13827833.jpeg?cs=srgb&dl=pexels-antony-trivet-13827833.jpg&fm=jpg&_gl=1*1q68o39*_ga*ODk0Mzc0MDU1LjE2NzMxODg2NTE.*_ga_8JE65Q40S6*MTY3NDA2ODk3NC4xNC4xLjE2NzQwNzAzNjYuMC4wLjA.)
+          - Bungee Jumping Photo [Pexels website](https://images.pexels.com/photos/1486036/pexels-photo-1486036.jpeg?auto=compress&cs=tinysrgb&w=1600)
+          - White Water Rafting Photo [Pexels website](https://images.pexels.com/photos/10719718/pexels-photo-10719718.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load)
+          - Boat Sunset Cruise Photo [Pexels website](https://images.pexels.com/photos/13548622/pexels-photo-13548622.jpeg?cs=srgb&dl=pexels-amine-i%CC%87spir-13548622.jpg&fm=jpg&_gl=1*qee3d2*_ga*ODk0Mzc0MDU1LjE2NzMxODg2NTE.*_ga_8JE65Q40S6*MTY3NDA2ODk3NC4xNC4xLjE2NzQwNjk0NzMuMC4wLjA.)
 
 - Enquire page
      - Hero image [Pexels website](https://images.pexels.com/photos/561870/pexels-photo-561870.jpeg?auto=compress&cs=tinysrgb&w=1600)
