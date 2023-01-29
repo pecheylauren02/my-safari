@@ -1211,6 +1211,7 @@ button {
         .welcome-col p {
             font-size: 100%;
         }
+
         #reasons-section {
             height: 2000px;
         }
@@ -1250,7 +1251,7 @@ button {
         #luxury-section,
         #lodge-section,
         #tent-section {
-            height: 2200px;
+            height: 2300px;
         }
 
         #circular-container,
@@ -1274,7 +1275,7 @@ button {
 
         .text-left,
         .text-right {
-            width: 90%;
+            width: 95%;
             margin: 0 auto;
             float: none;
         }
@@ -1283,10 +1284,6 @@ button {
         .heading-right {
             font-size: 200%;
             margin: 0 auto;
-        }
-
-        hr {
-            display: none;
         }
 
         .activity-image {
