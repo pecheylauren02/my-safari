@@ -188,6 +188,7 @@ p {
 .welcome-title {
     font-size: 250%;
     padding-top: 30px;
+    margin-top: 0;
 }
 
 .welcome-sub-heading {
@@ -272,7 +273,7 @@ hr {
 }
 
 #main-reasons-heading {
-    margin: 25px 0;
+    margin: 15px 0;
     text-align: center;
     font-size: 250%;
     padding-top: 30px;
@@ -724,6 +725,7 @@ button {
         .left-reasons-heading,
         .right-reasons-heading {
             width: 90%;
+            padding-top: 0px;
         }
 
         .footer-menu ul {
@@ -1202,9 +1204,6 @@ button {
             height: 2200px;
         }
 
-        #left-reasons, #right-reasons {
-            width: 100%;
-        }
 
         footer {
             height: 230px;
