@@ -721,6 +721,38 @@ button {
         width: 90%;
     }
 
+    footer {
+        height: 230px;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    
+    .footer-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .contact {
+        margin: 0 auto;
+        line-height: 30px;
+        font-size: 110%;
+    }
+    
+    .social-links li {
+        margin: 0% 5%;
+        display: inline;
+    }
+    
+    .social-links i {
+        font-size: 150%;
+    }
+
+    .copyright {
+        padding: 0px;
+        margin: 0 auto;
+    }
+
     #luxury-section,
     #lodge-section,
     #tent-section {
@@ -799,7 +831,7 @@ button {
         font-size: 200%;
         margin: 2%;
         padding: 5%;
-        color: white;
+        color: #FFFFFF;
     }
 
     .active {
@@ -827,7 +859,7 @@ button {
     }
 
     .welcome-container {
-        height: 1200px;
+        height: 1300px;
     }
 
     .welcome-col {
@@ -874,6 +906,14 @@ button {
     .left-reasons-heading h2,
     .right-reasons-heading h2 {
         text-decoration: none;
+    }
+
+    footer {
+        height: 240px;
+    }
+    
+    .footer-content {
+        width: 100%;
     }
 
     #circular-container,
@@ -926,7 +966,7 @@ button {
     }
 
     .welcome-container {
-        height: 1200px;
+        height: 1500px;
     }
 
     .welcome-col {
@@ -934,7 +974,7 @@ button {
     }
 
     .iframe {
-        width: 80%;
+        width: 85%;
         object-fit: cover;
     }
 
@@ -1046,7 +1086,15 @@ button {
     }
 
     .welcome-container {
-        height: 1300px;
+        height: 1500px;
+    }
+
+    .welcome-col {
+        width: 90%;
+    }
+
+    .iframe {
+        width: 90%;
     }
 
     .gallery-row {
