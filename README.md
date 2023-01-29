@@ -19,12 +19,11 @@ This is the documentation for a new and upcoming Safari website, called Sable Sa
         - [Market Review](#market-review)
         - [Key Takeaways](#key-takeaways-from-market-review)
     - [User Stories](#user-stories)
-    - [Design, Layout and Structure](#design-layout--structure)
+    - [Design, Layout and Structure](#design-layout-and-structure)
         - [Wireframes](#wireframes)
         - [Structure](#structure)
         - [Colour](#colour)
         - [Font](#font)
-        - [Imagery](#imagery)
 2. [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Tools](#tools)
@@ -165,13 +164,6 @@ I chose to use a bright, bold design using safari-themed colours sunset shades o
 
 My choice of font was [Libre Baskerville](https://fonts.google.com/?query=baskerville) for all paragraphs and [Libre Baskerville Bold](https://fonts.google.com/specimen/Libre+Baskerville?query=baskerville) for all headings. Both font choices were imported from [Google Fonts](https://fonts.google.com/) and had a backup font of Sans Serif. I chose these fonts for my website because they both have an elegant, professional and welcoming finish which is best suited for a website aiming to attract its users. The boldness also displayed a strong legibility as headings over images, text and videos. 
 
-### Imagery
-In the top, left corner of each page, a Safari logo with paw icons on either side can be seen. Clicking it will direct the user back to the "About Us" page.
-
-image here <img>
-
-To illustrate the "About Us" Page, 
-
 ## Technologies Used 
 
 This website used a combination of two different languages, and some web tools for the initial planning. A list of those included in the project can be seen as follows: 
@@ -207,8 +199,16 @@ This website used a combination of two different languages, and some web tools f
 #### Navbar and Header
 
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/navbar_desktop.png">
+_Navbar on desktop_
+<img src="assets/images/readme_screenshots/navbar_after_hover.png">
+_Navbar after hover_
+<img src="assets/images/readme_screenshots/navbar_ipad.png">
+_Navbar on iPad_
+<img src="assets/images/readme_screenshots/navbar_phone.png">
+_Navbar on phone_
 </details>
+
 - The navbar features the Sable Safari logo identically at the top left-corner of each page, so that the user can immediately identify what the website is about.  
 - There are also four navigation links identically placed to the right: "About Us", "Accommodation", "Activities" and "Enquire", to allow for easy navigation to the different pages of the website. 
      - The user can easily navigate through each page, without needing to use the 'back' button to revert to a previous page. 
@@ -218,7 +218,14 @@ This website used a combination of two different languages, and some web tools f
 
 #### Hero
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/hero-ab.png">
+_About Us hero image_
+<img src="assets/images/readme_screenshots/hero-acc.png">
+_Accommodation hero image_
+<img src="assets/images/readme_screenshots/hero-act.png">
+_Activities hero image_
+<img src="assets/images/readme_screenshots/hero-en.png">
+_Enquire hero image_
 </details>
 - Each main page displays a hero image of a close-up encounter with a wild animal you would expect to see at Sable Safari.
 - The size of the hero images are large, with a small part of the next container visible to encourage the user to scroll further. 
@@ -235,7 +242,10 @@ This website used a combination of two different languages, and some web tools f
 - The footer is responsive on all screens. 
 
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/footer_desktp.png">
+_Footer on Desktop_
+<img src="assets/images/readme_screenshots/footer_mobile.png">
+_Footer on Phone_
 </details>
 
 ### About Us page
@@ -243,7 +253,10 @@ This website used a combination of two different languages, and some web tools f
 #### The Welcome section
 
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/welcome_desktop.png">
+_Welcome on Desktop and iPad_
+<img src="assets/images/readme_screenshots/welcome_phone.png">
+_Welcome on Phone_
 </details>
 - The first section that the users sees after the hero image is a bright orange heading with a brief introduction to Sable Safari. 
 - On larger screens, to the right of the welcome information is a video of Victoria Falls, an infamous landmark located near the Safari, that the users can watch to get a feel of the area. 
@@ -255,7 +268,8 @@ This website used a combination of two different languages, and some web tools f
 
 #### The Photo Gallery
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/gallery.png">
+_Photo Gallery_
 </details>
 
 - Below the video is a photo gallery container, with a different colour background to the welcome container to differentiate between the two. 
@@ -264,7 +278,10 @@ This website used a combination of two different languages, and some web tools f
 
  #### The "Why Stay With Us?" section
  <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/reasons_desktop.png">
+_Reasons section on Desktop_
+<img src="assets/images/readme_screenshots/reasons_phone.png">
+_Reasons section on Phone_
 </details>
 - This section gives the user four catchy, brief glimpses of what is offered at Sable Safari.
 - Below each summary, there is a "Find out more" button, to encourage them to explore other aspects of the website like accommodation and activities. 
@@ -273,14 +290,22 @@ This website used a combination of two different languages, and some web tools f
      - If the user hovers over the button, the text is underlined to show the user which button they are about to click. 
 
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/find_out.png">
+_Find Out button before hover_
+<img src="assets/images/readme_screenshots/find_out_hover.png">
+_Find Out button after hover_
 </details>
 
 ### Accommodation page
 
 This page is separated into three sections: Luxury Rooms, Safari Lodges and Tented Campsites. 
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/acc_desktp.png">
+_Rooms section on Desktop_
+<img src="assets/images/readme_screenshots/act_ipad.png">
+_Rooms section on iPad_
+<img src="assets/images/readme_screenshots/act_phone.png">
+_Rooms section on Phone_
 </details>
 
 - Each section is separated by a different background colour, from black to dark grey, so users can differentiate between the sections. 
@@ -295,7 +320,12 @@ This page is separated into three sections: Luxury Rooms, Safari Lodges and Tent
 ### Activities page
 This page is separated into four sections: Safari Game Drives, White Water Rafting, Bungee Jumping and a Sunset Boat Cruise. 
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/act_desktop.png">
+_Activities section on Desktop_
+<img src="assets/images/readme_screenshots/act_ipad.png">
+_Activities section on iPad_
+<img src="assets/images/readme_screenshots/act_phone.png">
+_Activities section on Phone_
 </details>
 
 - The layout shows an eye-catching image of the first type of activity on the left, and information about the activity on the right. 
@@ -306,7 +336,16 @@ This page is separated into four sections: Safari Game Drives, White Water Rafti
 ### Enquiries page
 This page shows two sections: an easy-to-fill-in enquiry form and some further information about Sable Safari. 
 <details><summary>Screenshots</summary>
-<img src>
+<img src="assets/images/readme_screenshots/form_desktop.png">
+_Enquiry text and form section on Desktop_
+<img src="assets/images/readme_screenshots/enq_ipad.png">
+_Enquiry text section on iPad_
+<img src="assets/images/readme_screenshots/enq_phone.png">
+_Enquiry text section on Phone_
+<img src="assets/images/readme_screenshots/form_ipad.png">
+_Enquiry form section on iPad_
+<img src="assets/images/readme_screenshots/form_phone.png">
+_Enquiry form section on Phone_
 </details>
 
 - On desktops, these sites sit side by side but stack on top of each other on smaller screens. 
@@ -334,26 +373,31 @@ I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-vali
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/readme_screenshots/css_validator.png">
+_CSS Validator Result_
 </details>
-
 
 ### Accessibility
 
 I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean.
 <details><summary>About Us</summary>
 <img src=>
+_Accessibility result on About Us page_
 </details>
 <details><summary>Accommodation</summary>
 <img src="assets/images/readme_screenshots/accom_access_perf.png">
+_Accessibility result on Accommodation page_
 </details>
 <details><summary>Activities</summary>
 <img src="assets/images/readme_screenshots/act_access_perf.png">
+_Accessibility result on Activities page_
 </details>
 <details><summary>Enquire</summary>
 <img src="assets/images/readme_screenshots/enq_access_perf.png">
+_Accessibility result on Enquiry page_
 </details>
 <details><summary>Thankyou</summary>
 <img src="assets/images/readme_screenshots/thankyou_access_perf.png">
+_Accessibility result on Thank You page_
 </details>
 
 ### Performance
@@ -362,18 +406,23 @@ I tested the side through Google Chrome Dev Tools Lighthouse to check on the per
 
 <details><summary>About Us</summary>
 <img src=>
+_Performance result on About Us page_
 </details>
 <details><summary>Accommodation</summary>
 <img src="assets/images/readme_screenshots/accom_access_perf.png">
+_Performance result on Accommodation page_
 </details>
 <details><summary>Activities</summary>
 <img src="assets/images/readme_screenshots/act_access_perf.png">
+_Performance result on Activities page_
 </details>
 <details><summary>Enquire</summary>
 <img src="assets/images/readme_screenshots/enq_access_perf.png">
+_Performance result on Enquire page_
 </details>
 <details><summary>Thankyou</summary>
 <img src="assets/images/readme_screenshots/thankyou_access_perf.png">
+_Performance result on Thank You page_
 </details>
 
 ### Browser Compatibility
