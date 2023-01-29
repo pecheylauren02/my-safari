@@ -114,7 +114,7 @@ Before designing the website, I reviewed the market by looking at other safari w
 
 - User Story 3: As a hotel staff member I want to:
      - navigate easily between pages so I can assist clients
-     - easily access information if the client has questions
+     - easily access information so I can answer client's questions or show them relevant information
 
 These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing scope issues like scope creep at a later stage after the coding process. 
 
@@ -126,10 +126,68 @@ The design, layout and structure was consistent across all pages for certain ele
 I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
 
 <details><summary>About Us</summary>
+
+<img src="assets/images/readme_screenshots/wf_ab_dsktp.png">
+
+_Desktop Wireframe for About Us_
+
+<img src="assets/images/readme_screenshots/wf_ab_ipad.png">
+
+_iPad Wireframe for About Us_
+
+<img src="assets/images/readme_screenshots/wf_ab_phone.png">
+
+_Phone Wireframe for About Us_
+
 </details>
-<details><summary>Accommodation</summary></details>
-<details><summary>Activities</summary></details>
-<details><summary>Enquiry</summary></details>
+
+<details><summary>Accommodation</summary>
+
+<img src="assets/images/readme_screenshots/wf_acc_dsktp.png">
+
+_Desktop Wireframe for Accommodation_
+
+<img src="assets/images/readme_screenshots/wf_acc_ipad.png">
+
+_iPad Wireframe for Accommodation_
+
+<img src="">
+
+_Phone Wireframe for Accommodation_
+
+</details>
+
+<details><summary>Activities</summary>
+
+<img src="assets/images/readme_screenshots/wf_act_dsktp.png">
+
+_Desktop Wireframe for Activities_
+
+<img src="assets/images/readme_screenshots/wf_act_ipad.png">
+
+_iPad Wireframe for Activities_
+
+<img src="">
+
+_Phone Wireframe for Activities_
+
+</details>
+
+<details><summary>Enquiry</summary>
+
+<img src="assets/images/readme_screenshots/wf_en_dsktp.png">
+
+_Desktop Wireframe for About Us_
+
+<img src="assets/images/readme_screenshots/wf_en_ipad.png">
+
+_iPad Wireframe for About Us_
+
+<img src="">
+
+_Phone Wireframe for About Us_
+
+</details>
 
 ### Structure
 
