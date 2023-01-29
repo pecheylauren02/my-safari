@@ -330,15 +330,78 @@ This page shows two sections: an easy-to-fill-in enquiry form and some further i
 
 ### CSS Validator Testing
 
+I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were displayed. 
+
+<details><summary>Screenshots</summary>
+<img src="assets/images/readme_screenshots/css_validator.png">
+</details>
+
+
 ### Accessibility
+
+I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean.
+<details><summary>About Us</summary>
+<img src=>
+</details>
+<details><summary>Accommodation</summary>
+<img src="assets/images/readme_screenshots/accom_access_perf.png">
+</details>
+<details><summary>Activities</summary>
+<img src="assets/images/readme_screenshots/act_access_perf.png">
+</details>
+<details><summary>Enquire</summary>
+<img src="assets/images/readme_screenshots/enq_access_perf.png">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/readme_screenshots/thankyou_access_perf.png">
+</details>
 
 ### Performance
 
+I tested the side through Google Chrome Dev Tools Lighthouse to check on the performance. The scores showed high on all pages, but needed improvement for the "About Us" page. This page was delayed in performance due to the size of the hero image. Once that was resized using [TinyPNG](https://www.tinypng.com) the performance was higher. 
+
+<details><summary>About Us</summary>
+<img src=>
+</details>
+<details><summary>Accommodation</summary>
+<img src="assets/images/readme_screenshots/accom_access_perf.png">
+</details>
+<details><summary>Activities</summary>
+<img src="assets/images/readme_screenshots/act_access_perf.png">
+</details>
+<details><summary>Enquire</summary>
+<img src="assets/images/readme_screenshots/enq_access_perf.png">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/readme_screenshots/thankyou_access_perf.png">
+</details>
+
 ### Browser Compatibility
+
+The site was tested on the following browsers
+
+- Google Chrome
+- Mozilla Firefox
+- Apple Safari
+
+There were no issues on Chrome and Firefox but the footer on Safari was covering the content, which was an issue. [Here is how it was fixed:](#footer-covering-content-on-safari)
 
 ### Responsiveness/Device Testing
 
+The website was tested on the following devices:
+- HP Display 27-inch External Monitor
+- Apple Macbook Pro 13-inch
+- Samsung Galaxy S10
+- Apple iPhone SE
+- Apple iPad mini
+- Galaxy Tablet
+- Google Chrome Developer Tools - using responsive testing for all screen sizes
+
+The website functioned as expected on all devices.
+
 ### Solved Bugs
+
+#### Footer Covering Content on Safari
 
 ## Deployment
 
