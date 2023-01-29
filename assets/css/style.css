@@ -456,7 +456,6 @@ footer {
 .right-about-heading,
 .center-about-heading {
     width: 70%;
-    float: center;
     text-align: center;
     margin: 5% 20% 5% 20%;
 }
@@ -758,7 +757,6 @@ button {
         #center-about {
             clear: both;
             width: 50%;
-            float: center;
             padding: 0;
         }
 
@@ -1110,7 +1108,6 @@ button {
         #left-reasons,
         #right-reasons {
             width: 90%;
-            float: center;
         }
 
         #main-reasons-heading {

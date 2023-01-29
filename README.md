@@ -122,10 +122,11 @@ The design, layout and structure was consistent across all pages for certain ele
 
 I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
 
-<details><summary>About Us</summary></details>
-<details><summary>Accommodation</summary>
-<details><summary>Activities</summary>
-<details><summary>Enquiry</summary>
+<details><summary>About Us</summary>
+</details>
+<details><summary>Accommodation</summary></details>
+<details><summary>Activities</summary></details>
+<details><summary>Enquiry</summary></details>
 
 ### Structure
 
