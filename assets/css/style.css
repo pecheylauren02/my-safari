@@ -1172,7 +1172,7 @@ button {
 
         .act-cont-left,
         .act-cont-right {
-            height: 1600px;
+            height: 1700px;
         }
 
         .form-container {
@@ -1183,8 +1183,6 @@ button {
             width: 90%;
             margin: 0 auto;
         }
-
-
     }
 
     @media screen and (max-width: 400px) {
@@ -1251,7 +1249,7 @@ button {
         #luxury-section,
         #lodge-section,
         #tent-section {
-            height: 2300px;
+            height: 2400px;
         }
 
         #circular-container,
