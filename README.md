@@ -12,21 +12,55 @@ This is the documentation for a new and upcoming Safari website, called Sable Sa
 ## Table of Contents
 
 1. [Project Development and Planning](#project-development--planning)
-    * [Project Goals](#project-goals)
-        * [Project Purpose](#project-purpose)
-        * [Target Audience](#target-audience)
-    * [Research](#research)
-        * [Market Review](#market-review)
-        * [Key Takeaways](#key-takeaways-from-market-review)
-    * [User Stories](#user-stories)
-    * [Design, Layout & Structure](#design-layout--structure)
-        * [Wireframes](#wireframes)
-        * [Structure](#structure)
-        * [Colour](#colour)
-        * [Fonts](#fonts)
+    - [Project Goals](#project-goals)
+        - [Project Purpose](#project-purpose)
+        - [Target Audience](#target-audience)
+    - [Research](#research)
+        - [Market Review](#market-review)
+        - [Key Takeaways](#key-takeaways-from-market-review)
+    - [User Stories](#user-stories)
+    - [Design, Layout and Structure](#design-layout--structure)
+        - [Wireframes](#wireframes)
+        - [Structure](#structure)
+        - [Colour](#colour)
+        - [Font](#font)
+        - [Imagery](#imagery)
 2. [Technologies Used](#technologies-used)
-    * [Languages](#languages)
-    * [Tools](#tools)
+    - [Languages](#languages)
+    - [Tools](#tools)
+3. [Features](#features)
+    - [Whole Site](#whole-site)
+        - [Nav Bar and Header](#whole-site)
+        - [Hero Image](#hero)
+        - [Footer](#footer)
+        - [Favicon](#favicon)
+    - [About Us page](#about-us-page)
+        - [Bio & Find Out More Button](#bio--find-out-more-button)
+        - [Photo Gallery](#home-photo-gallery)
+        - [Video](#video)
+    - [Accommodation page](#accommodation-page)
+        - [About Us Sections](#about-us-sections)
+        - [Call To Action](#call-to-action)
+    - [Activities page](#book-us)
+        - [Book Us Info & Form](#book-us-info--form)
+        - [Testimonials](#testimonials)
+    - [Enquiries page](#enquiries-page)
+        - [Join Us Info & Form](#join-us-info--form)
+        - [Photo Gallery](#join-photo-gallery)
+    - [Other Pages](#other-pages)
+        - [Thankyou Page](#thankyou-page)
+    - [Future Features](#future-features)
+- [Testing and bugs](#testing--bugs)
+    - [HTML Validator Testing](#html-validator-testing)
+    - [CSS Validator Testing](#css-validator-testing)
+    - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Responsiveness / Device Testing](#responsiveness--device-testing)
+    - [Browser Compatibility](#browser-compatibility)
+    - [Bugs & Fixes](#bugs--fixes)
+    - [Testing User Stories](#testing-user-stories)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 ## Project Development and Planning 
 
@@ -88,7 +122,7 @@ The design, layout and structure was consistent across all pages for certain ele
 
 I used [Balsamiq](https://balsamiq.com/) in the initial design phase, before the coding process. This enabled me to develop the website's structure, skeleton, layout and overall look and style.
 
-<details><summary>About Us</summary>
+<details><summary>About Us</summary></details>
 <details><summary>Accommodation</summary>
 <details><summary>Activities</summary>
 <details><summary>Enquiry</summary>
@@ -291,24 +325,21 @@ This page shows two sections: an easy-to-fill-in enquiry form and some further i
 
 ## Testing and Bugs
 
-Description here
+### HTML Validator Testing 
 
-### Validator Testing
+### CSS Validator Testing
 
-#### HTML Validator Testing 
+### Accessibility
 
-#### CSS Validator Testing
+### Performance
 
-#### Accessibility
+### Browser Compatibility
 
-### Bugs
+### Responsiveness/Device Testing
 
-#### Solved Bugs
-
-#### Unfixed Bugs
+### Solved Bugs
 
 ## Deployment
-
 
 ### GitHub Pages 
 
@@ -354,8 +385,8 @@ The project will now be cloned locally for your use.
 - Credits here
 
  <!-- Hamburger menu idea from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
- <!-- https://www.w3schools.com/howto/howto_css_navbar_icon.asp */ -->
- <!-- Fixed bug for blank space https://www.quora.com/Why-do-I-have-random-white-space-appearing-to-the-right-of-the-web-page-outside-of-body-tags */ -->
+ <!-- https://www.w3schools.com/howto/howto_css_navbar_icon.asp -/ -->
+ <!-- Fixed bug for blank space https://www.quora.com/Why-do-I-have-random-white-space-appearing-to-the-right-of-the-web-page-outside-of-body-tags -/ -->
  <!--> Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
  https://www.w3schools.com/howto/howto_css_images_side_by_side.asp  -->
  <!-- https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ --> 
