@@ -437,25 +437,53 @@ The project will now be cloned locally for your use.
 
 ## Credits
 
-### Content
 
-- Credits here
+### Code
+
+- [Foolish Developer](https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/) helped in styling the footer to be responsive on all screens. 
+- [W3C Schools](https://www.w3schools.com/howto/howto_css_navbar_icon.asp) helped me to style the navigation bar with icons.
+- [W3C Schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp) helped with positioning the gallery images side by side. 
+- [Heap Coding](https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/) helped with the positioning of images alongside text for the Activities page. 
 
 ### Media
 
-- Video content
-     - 
+#### Images
+- About Us page
+     - Hero image [Pexels website]()
+     - Photo Gallery
+          - Giraffe Photo [Pexels website](https://images.pexels.com/photos/1382156/pexels-photo-1382156.jpeg?auto=compress&cs=tinysrgb&w=1600)
+          - Impala Photo [Pexels website](https://images.pexels.com/photos/1109899/pexels-photo-1109899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Leopard Photo [Pexels website](https://images.pexels.com/photos/46254/leopard-wildcat-big-cat-botswana-46254.jpeg)
+          - Elephant Photo [Pexels website](https://images.pexels.com/photos/1054666/pexels-photo-1054666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Lion Photo [Pexels website](https://images.pexels.com/photos/4032590/pexels-photo-4032590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Zebra Photo [Pexels website](https://images.pexels.com/photos/763925/pexels-photo-763925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
 
-- Credits here
+- Accommodation page
+     - Hero image [Pexels website]()
+     - Accommodation photos
+          - Presidential Suite [Pexels website](https://images.pexels.com/photos/3701434/pexels-photo-3701434.jpeg?auto=compress&cs=tinysrgb&w=1600)
+          - Honeymoon Suite [Pexels website](https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Deluxe Room [Pexels website](https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Nyati Lodge [Pexels website](https://images.pexels.com/photos/5784432/pexels-photo-5784432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Nzou Lodge [Pexels website](https://images.pexels.com/photos/5439495/pexels-photo-5439495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Ingwe Lodge [Pexels website](https://images.pexels.com/photos/5439496/pexels-photo-5439496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+          - Campsite One [Pexels website]()
+          - Campsite Two [Pexels website]()
+          - Campsite Three [Pexels website]()
+          
+- Activities page
+     - Hero image [Pexels website](https://images.pexels.com/photos/39504/giraffe-animal-funny-facial-expression-39504.jpeg?auto=compress&cs=tinysrgb&w=1600)
+     - Activities photos
+          - Safari Game Drive Photo [Pexels website]()
+          - Bungee Jumping Photo [Pexels website]()
+          - White Water Rafting Photo [Pexels website]()
+          - Boat Sunset Cruise Photo [Pexels website]()
 
- <!-- Hamburger menu idea from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
- <!-- https://www.w3schools.com/howto/howto_css_navbar_icon.asp -/ -->
- <!-- Fixed bug for blank space https://www.quora.com/Why-do-I-have-random-white-space-appearing-to-the-right-of-the-web-page-outside-of-body-tags -/ -->
- <!--> Hero images section of homepage, help from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp and
- https://www.w3schools.com/howto/howto_css_images_side_by_side.asp  -->
- <!-- https://foolishdeveloper.com/simple-responsive-footer-design-using-html-and-css/ --> 
- <!-- help from https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/ >
+- Enquire page
+     - Hero image [Pexels website](https://images.pexels.com/photos/561870/pexels-photo-561870.jpeg?auto=compress&cs=tinysrgb&w=1600)
 
+#### Video 
+- A video of the infamous Victoria Falls: [Soar Above Victoria Falls](https://www.youtube.com/watch?v=_EKLcgECxrM&t=8s)
 
 ### Acknowledgements 
 
