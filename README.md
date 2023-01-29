@@ -108,11 +108,15 @@ Before designing the website, I reviewed the market by looking at other safari w
      - navigate easily between pages
 
 - User Story 2: As a booking company on behalf of travellers I want to: 
+     - find out general information about the Safari and what they offer, to relay to my clients
+     - find out the cost of the accommodation to relay to my clients
+     - contact the administration if I have any questions or want to book on behalf of my clients
 
-- User Story 3:
+- User Story 3: As a hotel staff member I want to:
+     - navigate easily between pages so I can assist clients
+     - easily access information if the client has questions
 
-These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing scope issues at a later stage after the coding process. 
-
+These user stories gave me a clear scope for the website and enabled me to stay on track with the project, preventing scope issues like scope creep at a later stage after the coding process. 
 
 ## Design, Layout and Structure 
 The design, layout and structure was consistent across all pages for certain elements, such as the colour palette for headings, paragraphs and backgrounds, the design of the navigation bar and footer and the social links. However, the layout of each page was slightly different, to allow users to differentiate between different pages easily. On each page, I incorporated a lot of visual content, such as eye-catching images, bold colours and a video.
@@ -151,14 +155,11 @@ On the About Us page, there is also another method of navigation, through the "F
 
 The suggested route is ABOUT US > ACCOMMODATION/ACTIVITIES > ENQUIRE
 
-<details><summary>Screenshots</summary>
-<img src>
-</details>
-
 ### Colour 
 
-I chose to use a bright, bold design using safari-themed colours sunset shades of orange, white and black for effective contrasting and green to differentiate buttons, prices and copyright information from other content.
-![Colour Palette](assets/images/readme_screenshots/color_palette.png)
+I chose to use a bright, bold design using safari-themed colours sunset shades of orange, white and black for effective contrasting and green to differentiate buttons and prices from other content.
+![Colour Palette](assets/images/readme_screenshots/colour_palette_design.png)
+![Colour Palette for buttons and prices](assets/images/readme_screenshots/colour_palette_buttons.png)
 
 ### Font
 
@@ -199,34 +200,54 @@ This website used a combination of two different languages, and some web tools f
 #### Navbar and Header
 
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/navbar_desktop.png">
+
 _Navbar on desktop_
+
 <img src="assets/images/readme_screenshots/navbar_after_hover.png">
+
 _Navbar after hover_
+
 <img src="assets/images/readme_screenshots/navbar_ipad.png">
+
 _Navbar on iPad_
+
 <img src="assets/images/readme_screenshots/navbar_phone.png">
+
 _Navbar on phone_
+
 </details>
 
 - The navbar features the Sable Safari logo identically at the top left-corner of each page, so that the user can immediately identify what the website is about.  
 - There are also four navigation links identically placed to the right: "About Us", "Accommodation", "Activities" and "Enquire", to allow for easy navigation to the different pages of the website. 
-     - The user can easily navigate through each page, without needing to use the 'back' button to revert to a previous page. 
+     - This is so the user can easily navigate through each page, without needing to use the 'back' button to revert to a previous page. 
 - The page that the user is currently on differentiated by a bright orange border, to make it easy for users to see which page they are on. 
 - When the user hovers over a navigation link, it changes colour from white to bright orange so the user can see which link they are about to click.
 - The navbar is fully responsive, and the reduces to icons only for smaller screens like Ipads, tablets and mobiles. 
 
 #### Hero
+
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/hero-ab.png">
+
 _About Us hero image_
+
 <img src="assets/images/readme_screenshots/hero-acc.png">
+
 _Accommodation hero image_
+
 <img src="assets/images/readme_screenshots/hero-act.png">
+
 _Activities hero image_
+
 <img src="assets/images/readme_screenshots/hero-en.png">
+
 _Enquire hero image_
+
 </details>
+
 - Each main page displays a hero image of a close-up encounter with a wild animal you would expect to see at Sable Safari.
 - The size of the hero images are large, with a small part of the next container visible to encourage the user to scroll further. 
 - Each hero image has a gradient over it, to improve the legibility of the caption.
@@ -242,10 +263,15 @@ _Enquire hero image_
 - The footer is responsive on all screens. 
 
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/footer_desktp.png">
+
 _Footer on Desktop_
+
 <img src="assets/images/readme_screenshots/footer_mobile.png">
+
 _Footer on Phone_
+
 </details>
 
 ### About Us page
@@ -253,10 +279,15 @@ _Footer on Phone_
 #### The Welcome section
 
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/welcome_desktop.png">
+
 _Welcome on Desktop and iPad_
+
 <img src="assets/images/readme_screenshots/welcome_phone.png">
+
 _Welcome on Phone_
+
 </details>
 - The first section that the users sees after the hero image is a bright orange heading with a brief introduction to Sable Safari. 
 - On larger screens, to the right of the welcome information is a video of Victoria Falls, an infamous landmark located near the Safari, that the users can watch to get a feel of the area. 
@@ -267,9 +298,13 @@ _Welcome on Phone_
      - This is because Sable Safari does not exist in real-life. If Sable Safari was a real business, a video of the accommodation and activities offered would be more ideal.
 
 #### The Photo Gallery
+
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/gallery.png">
+
 _Photo Gallery_
+
 </details>
 
 - Below the video is a photo gallery container, with a different colour background to the welcome container to differentiate between the two. 
@@ -277,12 +312,19 @@ _Photo Gallery_
 - The gallery is responsive on desktop and Ipad/tablet screen sizes, but is hidden on mobile screen sizes due to taking up too much real estate. 
 
  #### The "Why Stay With Us?" section
+
  <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/reasons_desktop.png">
+
 _Reasons section on Desktop_
+
 <img src="assets/images/readme_screenshots/reasons_phone.png">
+
 _Reasons section on Phone_
+
 </details>
+
 - This section gives the user four catchy, brief glimpses of what is offered at Sable Safari.
 - Below each summary, there is a "Find out more" button, to encourage them to explore other aspects of the website like accommodation and activities. 
      - The "Find out more" button navigated the user to either the acccommodation or activities page, depending on which description they show interest in and click.
@@ -290,22 +332,35 @@ _Reasons section on Phone_
      - If the user hovers over the button, the text is underlined to show the user which button they are about to click. 
 
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/find_out.png">
+
 _Find Out button before hover_
+
 <img src="assets/images/readme_screenshots/find_out_hover.png">
+
 _Find Out button after hover_
+
 </details>
 
 ### Accommodation page
 
 This page is separated into three sections: Luxury Rooms, Safari Lodges and Tented Campsites. 
+
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/acc_desktp.png">
+
 _Rooms section on Desktop_
+
 <img src="assets/images/readme_screenshots/act_ipad.png">
+
 _Rooms section on iPad_
+
 <img src="assets/images/readme_screenshots/act_phone.png">
+
 _Rooms section on Phone_
+
 </details>
 
 - Each section is separated by a different background colour, from black to dark grey, so users can differentiate between the sections. 
@@ -320,12 +375,19 @@ _Rooms section on Phone_
 ### Activities page
 This page is separated into four sections: Safari Game Drives, White Water Rafting, Bungee Jumping and a Sunset Boat Cruise. 
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/act_desktop.png">
+
 _Activities section on Desktop_
+
 <img src="assets/images/readme_screenshots/act_ipad.png">
+
 _Activities section on iPad_
+
 <img src="assets/images/readme_screenshots/act_phone.png">
+
 _Activities section on Phone_
+
 </details>
 
 - The layout shows an eye-catching image of the first type of activity on the left, and information about the activity on the right. 
@@ -334,18 +396,31 @@ _Activities section on Phone_
 - Each description is separated into "What to expect" and "What to bring" so as not to overwhelm the user with too much text. 
 
 ### Enquiries page
+
 This page shows two sections: an easy-to-fill-in enquiry form and some further information about Sable Safari. 
+
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/form_desktop.png">
+
 _Enquiry text and form section on Desktop_
+
 <img src="assets/images/readme_screenshots/enq_ipad.png">
+
 _Enquiry text section on iPad_
+
 <img src="assets/images/readme_screenshots/enq_phone.png">
+
 _Enquiry text section on Phone_
+
 <img src="assets/images/readme_screenshots/form_ipad.png">
+
 _Enquiry form section on iPad_
+
 <img src="assets/images/readme_screenshots/form_phone.png">
+
 _Enquiry form section on Phone_
+
 </details>
 
 - On desktops, these sites sit side by side but stack on top of each other on smaller screens. 
@@ -372,32 +447,54 @@ _Enquiry form section on Phone_
 I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were displayed. 
 
 <details><summary>Screenshots</summary>
+
 <img src="assets/images/readme_screenshots/css_validator.png">
+
 _CSS Validator Result_
+
 </details>
 
 ### Accessibility
 
 I tested accessibility of the website using Google Chrome Dev Tools Lighthouse, and the scores came out clean.
+
 <details><summary>About Us</summary>
+
 <img src=>
+
 _Accessibility result on About Us page_
 </details>
+
 <details><summary>Accommodation</summary>
+
 <img src="assets/images/readme_screenshots/accom_access_perf.png">
+
 _Accessibility result on Accommodation page_
+
 </details>
+
 <details><summary>Activities</summary>
+
 <img src="assets/images/readme_screenshots/act_access_perf.png">
+
 _Accessibility result on Activities page_
+
 </details>
+
 <details><summary>Enquire</summary>
+
 <img src="assets/images/readme_screenshots/enq_access_perf.png">
+
 _Accessibility result on Enquiry page_
+
 </details>
+
 <details><summary>Thankyou</summary>
+
 <img src="assets/images/readme_screenshots/thankyou_access_perf.png">
+
 _Accessibility result on Thank You page_
+
 </details>
 
 ### Performance
@@ -405,24 +502,43 @@ _Accessibility result on Thank You page_
 I tested the side through Google Chrome Dev Tools Lighthouse to check on the performance. The scores showed high on all pages, but needed improvement for the "About Us" page. This page was delayed in performance due to the size of the hero image. Once that was resized using [TinyPNG](https://www.tinypng.com) the performance was higher. 
 
 <details><summary>About Us</summary>
+
 <img src=>
+
 _Performance result on About Us page_
+
 </details>
+
 <details><summary>Accommodation</summary>
+
 <img src="assets/images/readme_screenshots/accom_access_perf.png">
+
 _Performance result on Accommodation page_
+
 </details>
+
 <details><summary>Activities</summary>
+
 <img src="assets/images/readme_screenshots/act_access_perf.png">
+
 _Performance result on Activities page_
+
 </details>
+
 <details><summary>Enquire</summary>
+
 <img src="assets/images/readme_screenshots/enq_access_perf.png">
+
 _Performance result on Enquire page_
+
 </details>
+
 <details><summary>Thankyou</summary>
+
 <img src="assets/images/readme_screenshots/thankyou_access_perf.png">
-_Performance result on Thank You page_
+
+_Performance result on Thankyou page_
+
 </details>
 
 ### Browser Compatibility
