@@ -183,6 +183,7 @@ p {
 
 .iframe {
     border: 5px solid #00884e;
+    object-fit: cover;
 }
 
 .welcome-title {
@@ -702,8 +703,7 @@ button {
         }
 
         .iframe {
-            width: 700px;
-            height: 466.67px;
+            width: 90%;
         }
 
         .gallery-col {
@@ -962,11 +962,6 @@ button {
             margin: 0 auto;
         }
 
-        .iframe {
-            width: 85%;
-            object-fit: cover;
-        }
-
         .find-out-activities {
             width: 50%;
             margin: 0 auto;
@@ -1095,7 +1090,7 @@ button {
         }
 
         .iframe {
-            width: 90%;
+            height: 350px;
         }
 
         .gallery-row {
@@ -1144,17 +1139,29 @@ button {
             font-size: 110%;
         }
 
+        .welcome-container {
+            height: 1200px;
+        }
+
+        .welcome-col, #left-reasons, #right-reasons {
+            font-size: 90%;
+            width: 95%;
+        }
+
         #reasons-section {
-            height: 2400px;
+            height: 2000px;
         }
 
         #main-reasons-heading {
             padding-bottom: 0;
         }
 
-        #left-reasons, #right-reasons {
-            font-size: 110%;
-            width: 90%;
+        .left-reasons-heading {
+            margin-right: 5%;
+        }
+
+        .right-reasons-heading {
+            margin-left: 5%;
         }
 
         #luxury-section,
@@ -1185,6 +1192,10 @@ button {
             width: 90%;
         }
 
+        .welcome-container {
+            height: 1300px;
+        }
+
         .welcome-title {
             font-size: 150%;
         }
@@ -1201,9 +1212,8 @@ button {
             font-size: 100%;
         }
         #reasons-section {
-            height: 2200px;
+            height: 2000px;
         }
-
 
         footer {
             height: 230px;
@@ -1309,7 +1319,7 @@ button {
         }
 
         .welcome-container {
-            height: 1200px;
+            height: 1500px;
         }
 
         #left-reasons, #right-reasons {
