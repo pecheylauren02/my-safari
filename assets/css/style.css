@@ -18,7 +18,15 @@ body {
     color: #FE6B00;
     background: #000;
     overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
+  
+main {
+    flex-grow: 1;
+  }
 
 body>footer {
     position: sticky;
@@ -219,7 +227,6 @@ p {
 /* Reasons section from About Us page */
 
 #reasons-section {
-    height: 100%;
     background: #000;
     width: 100%;
 }
@@ -1141,24 +1148,22 @@ button {
         }
 
         #reasons-section {
-            height: 2000px;
+            height: 2400px;
         }
 
         #main-reasons-heading {
             padding-bottom: 0;
         }
 
+        #left-reasons, #right-reasons {
+            font-size: 110%;
+            width: 90%;
+        }
+
         #luxury-section,
         #lodge-section,
         #tent-section {
             height: 2200px;
-        }
-
-        .left-about-heading,
-        .right-about-heading,
-        .center-about-heading {
-            font-size: 110%;
-            width: 90%;
         }
 
         .act-cont-left,
@@ -1199,7 +1204,11 @@ button {
             font-size: 100%;
         }
         #reasons-section {
-            height: 2400px;
+            height: 2200px;
+        }
+
+        #left-reasons, #right-reasons {
+            width: 100%;
         }
 
         footer {
@@ -1306,8 +1315,9 @@ button {
         }
 
         .welcome-container {
-            height: 
+            height: 1200px;
         }
+
         #left-reasons, #right-reasons {
             width: 100%;
         }
