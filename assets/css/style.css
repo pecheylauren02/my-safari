@@ -151,7 +151,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.hero-caption h1 {
+.hero-caption h2 {
     font-size: 350%;
     color: #ef9a5b;
 }
@@ -207,6 +207,10 @@ p {
     background: #000;
     padding: 5px 0;
     height: 300px;
+}
+
+.gallery-heading {
+    display: none;
 }
 
 .gallery-col {
@@ -608,7 +612,7 @@ button {
     position: relative;
 }
 
-.thankyou-container>h1 {
+.thankyou-container>h2 {
     color: #FE6B00;
 }
 
@@ -839,7 +843,7 @@ button {
             left: 40%;
         }
 
-        .hero-caption h1 {
+        .hero-caption h2 {
             font-size: 250%;
         }
 
@@ -942,7 +946,7 @@ button {
 
     @media screen and (max-width: 768px) {
 
-        .hero-caption h1 {
+        .hero-caption h2 {
             font-size: 220%;
         }
 
@@ -1137,7 +1141,7 @@ button {
             height: 250px;
         }
 
-        .hero-caption h1 {
+        .hero-caption h2 {
             font-size: 180%;
         }
 
@@ -1315,7 +1319,7 @@ button {
             height: 250px;
         }
 
-        .hero-caption h1 {
+        .hero-caption h2 {
             font-size: 150%;
             color: #ef9a5b;
         }
