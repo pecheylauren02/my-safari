@@ -493,8 +493,12 @@ _Enquiry form section on Phone_
 - There is also some further information called "Why Sable Safari?" to consolidate what the user has already read throughout the website. 
 
 ## Future Features 
-- Video of Sable Safari
-- More interactions
+
+I would like to add an additional feature to the website. This unfortunately fell out of the scope of this project, but would be useful to users in future. 
+
+#### Booking Form with calendar 
+
+I would like to add an extra page with a booking form, where users can book which dates they would like to stay at Sable Safari. 
 
 ## Testing and Bugs
 
@@ -676,17 +680,106 @@ _Footer bug solution_
 
 </details>
 
-#### Hero image not displaying well
+#### Responsive design issue on Thank you page
 
-On the About Us page, the hero image was not displaying the full image on large screens, and showed only parts of the lion's face. 
+On the Thank you page, the text was overflowing and covering content on the footer when I reduced the screen size to smaller screens. I fixed this was adjusting the font-size, width and padding of the text in the container, and it responded well after that. 
 
 <details><summary>Screenshots</summary>
 
-<img src="assets/images/readme_screenshots/hero-bug.png">
+<img src="assets/images/readme_screenshots/thankyou_bug.png">
 
-_Hero image not displaying well on About Us page_
+_Thank you text overflowing on small screen_
+
+<img src="assets/images/readme_screenshots/thankyou_bug_solved.png">
+
+_Thank you text responding well on small screen_
 
 </details>
+
+### Testing User Stories
+
+I ran manual tests on the website, based on the user stories mentioned above.
+
+#### 1. I want to find out general information about Sable Safari and what they offer
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme_screenshots/welcome_desktop.png">
+
+_Welcome Intro and Video_
+
+<img src="assets/images/readme_screenshots/reasons_desktop.png">
+
+_Why Stay with us section_
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome Introduction • Welcome video • "Why Stay With Us" Text | Scroll down on About Us page, read Welcome Introduction, watch video relating to intro, read more detail about reasons to stay on About Us page | Find information about Sable Safari | Works as expected |
+| Nav Bar - About Us Link • About Us Text | Click on "About Us" on navbar, read more detail on About Us page | Find information about Sable Safari | Works as expected |
+
+#### 2. I want to see and listen to media content of what they offer
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme_screenshots/hero-ab.png">
+
+_Hero image example_
+
+<img src="assets/images/readme_screenshots/act_desktop.png">
+
+<img src="assets/images/readme_screenshots/gallery.png">
+
+<img src="assets/images/readme_screenshots/welcome_desktop.png">
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero Images across each page • Photo Galleries • Video | Each page begins with hero image, scroll down to video and photo gallery on About Us page. | Photo and Video content throughout site | Works as expected |
+
+
+#### 3. I want to contact the administration if I have any questions or want to book
+
+<details><summary>Screenshots</summary>
+
+<img src="">
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact Information in Footer and Enquire form • Social Media Links in Footer | Scroll to the bottom of any page, click on footer social media links | User can click all social media which will open in a new tab. | Works as expected |
+
+#### 4. I want to navigate easily between pages
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme_screenshots/footer_desktp.png">
+
+<img src="assets/images/readme_screenshots/reasons_desktop.png">
+
+<img src="assets/images/readme_screenshots/find_out_hover.png">
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation links on every page • Find Out More Button | Scroll down on About Us page, go to "Why Stay with us" section, click "Find Out More" button | Find information about accommodation or activities at Sable Safari | Works as expected |
+| Safari Logo - About Us Link | Click on Safari Logo on nav, it will return you to the About Us page | Find information about Sable Safari | Works as expected |
+
+#### 5. I want to find out the cost of the accommodation to relay to my clients
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme_screenshots/acc_phone.png">
+
+</details>
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Price in green font on Accommodation page | Scroll down on Accommodation page, read short bio about room, see price per night in green font | Find information about the price of the accommodation | Works as expected |
 
 ## Deployment
 
