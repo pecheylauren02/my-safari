@@ -151,7 +151,7 @@ _Desktop Wireframe for Accommodation_
 
 _iPad Wireframe for Accommodation_
 
-<img src="">
+<img src="assets/images/readme_screenshots/wf_acc_phone.png">
 
 _Phone Wireframe for Accommodation_
 
@@ -167,7 +167,7 @@ _Desktop Wireframe for Activities_
 
 _iPad Wireframe for Activities_
 
-<img src="">
+<img src="assets/images/readme_screenshots/wf_act_phone.png">
 
 _Phone Wireframe for Activities_
 
@@ -177,15 +177,15 @@ _Phone Wireframe for Activities_
 
 <img src="assets/images/readme_screenshots/wf_en_dsktp.png">
 
-_Desktop Wireframe for About Us_
+_Desktop Wireframe for Enquiries_
 
 <img src="assets/images/readme_screenshots/wf_en_ipad.png">
 
-_iPad Wireframe for About Us_
+_iPad Wireframe for Enquiries_
 
-<img src="">
+<img src="assets/images/readme_screenshots/wf_en_phone.png">
 
-_Phone Wireframe for About Us_
+_Phone Wireframe for Enquiries_
 
 </details>
 
