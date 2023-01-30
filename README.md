@@ -821,6 +821,7 @@ The project will now be cloned locally for your use.
 - [W3C Schools](https://www.w3schools.com/howto/howto_css_navbar_icon.asp) helped me to style the navigation bar with icons.
 - [W3C Schools](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp) helped with positioning the gallery images side by side. 
 - [Heap Coding](https://www.heapcoding.com/how-to-put-image-and-text-side-by-side-in-html/) helped with the positioning of images alongside text for the Activities page. 
+- [Code Institute Love Running Project](https://codeinstitute.net) helped with the initial structuring of the accommodation website. 
 
 ### Media
 
