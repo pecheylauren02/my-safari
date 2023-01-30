@@ -500,6 +500,34 @@ _Enquiry form section on Phone_
 
 ### HTML Validator Testing 
 
+I ran my HTML code for each page through the [W3C HTML Validator](https://validator.w3.org/). Thankfully, no errors were displayed, except for on the enquiries page. In the dropdown menu, there was an issue with the code for the placeholder text.  
+     - The user was able to select the "Choose your room" as an option and submit the form. 
+     - Due to being unable to use JavaScript in this project, I chose to remove the placeholder text and chose the first option in the list as the option showing first on the dropdown list. 
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme_screenshots/html_val_index.png">
+
+_HTML Validator Result About Us_
+
+<img src="assets/images/readme_screenshots/html_val_accom.png">
+
+_HTML Validator Result Accommodation_
+
+<img src="assets/images/readme_screenshots/html_val_act.png">
+
+_HTML Validator Result Activities_
+
+<img src="assets/images/readme_screenshots/html_val_enq.png">
+
+_HTML Validator Result Enquiries_
+
+<img src="assets/images/readme_screenshots/html_val_thankyou.png">
+
+_HTML Validator Result Thankyou_
+
+</details>
+
 ### CSS Validator Testing
 
 I ran my CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were displayed. 
