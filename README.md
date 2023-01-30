@@ -1,13 +1,13 @@
 # Sable Safari Website
 
-- Add image here of three screens 
+<img src="assets/images/readme_screenshots/am_i_resp.png">
 
 #### By Lauren Pechey
 [Click here to view the live web application](https://pecheylauren02.github.io/my-safari/index.html)
 
 #### HELLO EVERYONE!
 
-This is the documentation for a new and upcoming Safari website, called Sable Safari! It has been built using HTML5 & CSS3 as an educational Project offered as part of Code Institute’s Diploma in Full Stack Software Development.
+This is the documentation for a Safari website, called Sable Safari! It has been built using HTML5 & CSS3 as an educational Project offered as part of Code Institute’s Diploma in Full Stack Software Development. DISCLAIMER: Sable Safari does not exist in real life, it was only created for educational purposes. 
 
 ## Table of Contents
 
