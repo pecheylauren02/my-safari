@@ -273,7 +273,7 @@ hr {
     font-size: 150%;
 }
 
-#main-reasons-heading {
+.main-reasons-heading {
     margin: 15px 0;
     text-align: center;
     font-size: 250%;
@@ -385,24 +385,24 @@ footer {
     padding: 20px;
 }
 
-#left-about {
+.left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about {
+.right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-about {
+.center-about {
     width: 33%;
     margin: 0 auto;
 }
 
-#circular-container {
+.circular-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -739,19 +739,19 @@ button {
             padding: 0;
         }
 
-        #main-reasons-heading {
+        .main-reasons-heading {
             padding: 30px 0;
             margin: 0;
         }
 
-        #left-about,
-        #right-about {
+        .left-about,
+        .right-about {
             width: 50%;
             float: left;
             padding: 0;
         }
 
-        #center-about {
+        .center-about {
             clear: both;
             width: 50%;
             padding: 0;
@@ -897,7 +897,7 @@ button {
             text-decoration: none;
         }
 
-        #circular-container,
+        .circular-container,
         #pres-suite,
         #delx-room,
         #honeymoon-suite,
@@ -984,9 +984,9 @@ button {
             height: 2150px;
         }
 
-        #left-about,
-        #right-about,
-        #center-about {
+        .left-about,
+        .right-about,
+        .center-about {
             width: 100%;
         }
 
@@ -1116,7 +1116,7 @@ button {
             width: 90%;
         }
 
-        #main-reasons-heading {
+        .main-reasons-heading {
             font-size: 200%;
         }
 
@@ -1158,7 +1158,7 @@ button {
             height: 2000px;
         }
 
-        #main-reasons-heading {
+        .main-reasons-heading {
             padding-bottom: 0;
         }
 
@@ -1258,7 +1258,7 @@ button {
             height: 2450px;
         }
 
-        #circular-container,
+        .circular-container,
         #pres-suite,
         #delx-room,
         #honeymoon-suite,
