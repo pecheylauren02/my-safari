@@ -557,13 +557,17 @@ _Accessibility result on Thank You page_
 
 ### Performance
 
-I tested the side through Google Chrome Dev Tools Lighthouse to check on the performance. The scores showed high on all pages, but needed improvement for the "About Us" page. This page was delayed in performance due to the size of the hero image. Once that was resized using [TinyPNG](https://www.tinypng.com) the performance was higher. 
+I tested the side through Google Chrome Dev Tools Lighthouse to check on the performance. The scores showed high on all pages, but needed improvement for the "About Us" page. This page was delayed in performance due to the size of the hero image and gallery images. Once that was resized using [TinyPNG](https://www.tinypng.com) the performance was higher. 
 
 <details><summary>About Us</summary>
 
-<img src=>
+<img src="assets/images/readme_screenshots/ab_low_perf.png">
 
-_Performance result on About Us page_
+_Low performance result on About Us page before images were resized_
+
+<img src="assets/images/readme_screenshots/ab_access_perf.png">
+
+_Performance result on About Us page after images were resized_
 
 </details>
 
@@ -601,7 +605,7 @@ _Performance result on Thankyou page_
 
 ### Browser Compatibility
 
-The site was tested on the following browsers
+The site was tested on the following browsers:
 
 - Google Chrome
 - Mozilla Firefox
@@ -625,6 +629,36 @@ The website functioned as expected on all devices.
 ### Solved Bugs
 
 #### Footer Covering Content on Safari
+
+My footer worked well on Chrome and Firefox, however it was covering content when I tested it on Safari. The issue was that I had positioned my footer to be sticky, which made it stick to the bottom of the page as I wanted, but was covering content. As a solution, wrapped the all of the HTML content in a <main> tag and styled this tag to flex-grow: 1, which commanded to footer to flow with the rest of the content. 
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme_screenshots/footer_bug.png">
+
+_Footer covering content on Safari browser_
+
+<img src="assets/images/readme_screenshots/footer_bug_issue.png">
+
+_Footer code issue_
+
+<img src="assets/images/readme_screenshots/footer_bug_solution.png">
+
+_Footer bug solution_
+
+</details>
+
+#### Hero image not displaying well
+
+On the About Us page, the hero image was not displaying the full image on large screens, and showed only parts of the lion's face. 
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme_screenshots/hero-bug.png">
+
+_Hero image not displaying well on About Us page_
+
+</details>
 
 ## Deployment
 

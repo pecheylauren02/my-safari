@@ -596,32 +596,29 @@ button {
 }
 
 #thankyou-section {
-    height: 100%;
-    background: #ef9a5b;
+    height: 600px;
 }
 
 .thankyou-container {
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     width: 50%;
-    margin: auto;
-    margin-top: 10%;
-    padding: 15%;
+    margin: 0 auto;
+    padding-top: 15%;
+    position: relative;
 }
 
 .thankyou-container>h1 {
-    color: #000;
-    position: relative;
-    text-decoration: underline;
+    color: #FE6B00;
 }
 
 .thankyou-container>p {
     font-size: 100%;
-    color: #000;
+    color: #ffffff;
 }
 
 .thankyou-link {
-    color: #000;
+    color: #ef9a5b;
 }
 
 .thankyou-container a:hover {
@@ -791,6 +788,11 @@ button {
         .heading-left,
         .heading-right {
             font-size: 250%;
+        }
+
+        .thankyou-container {
+            font-size: 180%;
+            width: 60%;
         }
 
 
@@ -1056,6 +1058,10 @@ button {
             margin: 0 auto;
             font-size: 110%;
         }
+
+        .thankyou-container {
+            padding-top: 25%;
+        }
     }
 
     /* For mobile screen sizes 600px and below */
@@ -1120,6 +1126,9 @@ button {
 
         .form-container {
             height: 1900px;
+        }
+        .thankyou-container {
+            width: 80%;
         }
     }
 
@@ -1287,6 +1296,11 @@ button {
 
         .form-container {
             height: 2500px;
+        }
+
+        .thankyou-container {
+            font-size: 150%;
+            padding-top: 35%;
         }
 
     }
